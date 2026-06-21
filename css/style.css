@@ -38,6 +38,7 @@ html, body {
   justify-content: space-between;
   padding: 28px;
   background: var(--event-gradient);
+  will-change: transform;
 }
 
 .event-bg {
@@ -45,8 +46,15 @@ html, body {
   inset: 0;
   background-size: cover;
   background-position: center;
-  transform: scale(1.1);
+  transform: scale(1.05);
+  transition: opacity 0.8s ease, transform 0.1s linear;
   z-index: 0;
+  opacity: 0;
+}
+
+.event-bg.loaded {
+  opacity: 1;
+  transform: scale(1.0);
 }
 
 .event-overlay {

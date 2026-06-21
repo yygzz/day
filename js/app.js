@@ -11,8 +11,10 @@ async function loadDate(date) {
   currentDate = date;
   dateLabel.textContent = formatDisplayDate(date);
   const events = await getEventsForDate(date);
+
+  // Instant reset avoids scroll-snap fighting with smooth scroll during re-render
+  app.scrollTop = 0;
   renderEvents(events, app);
-  app.scrollTo({ top: 0, behavior: 'smooth' });
   initScrollAnimations();
   updateActiveSection();
 }
@@ -39,34 +41,43 @@ function initScrollAnimations() {
 
     if (!bg || !title) return;
 
-    const enterTl = gsap.timeline({
+    // Set initial states for a smooth entrance
+    gsap.set([title, desc, meta].filter(Boolean), { y: 40, opacity: 0 });
+    if (watermark) gsap.set(watermark, { y: 60, opacity: 0 });
+
+    // Entrance: fade/slide content up when section reaches center
+    gsap.to([title, desc, meta].filter(Boolean), {
+      y: 0,
+      opacity: 1,
+      duration: 0.8,
+      stagger: 0.08,
+      ease: 'power2.out',
       scrollTrigger: {
         trigger: section,
         scroller: '#app',
-        start: 'top bottom',
-        end: 'center center',
-        scrub: 0.5,
+        start: 'top 75%',
+        end: 'top 25%',
+        toggleActions: 'play none none reverse'
       }
     });
 
-    enterTl.fromTo(bg, { scale: 1.15 }, { scale: 1.0, ease: 'none' }, 0);
-    enterTl.fromTo(title, { y: 60, opacity: 0 }, { y: 0, opacity: 1, ease: 'none' }, 0);
-    if (desc) enterTl.fromTo(desc, { y: 40, opacity: 0 }, { y: 0, opacity: 1, ease: 'none' }, 0.1);
-    if (meta) enterTl.fromTo(meta, { y: 20, opacity: 0 }, { y: 0, opacity: 1, ease: 'none' }, 0);
-    if (watermark) enterTl.fromTo(watermark, { y: 80, opacity: 0 }, { y: 0, opacity: 0.08, ease: 'none' }, 0);
+    if (watermark) {
+      gsap.to(watermark, {
+        y: 0,
+        opacity: 0.08,
+        duration: 0.9,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: section,
+          scroller: '#app',
+          start: 'top 75%',
+          end: 'top 25%',
+          toggleActions: 'play none none reverse'
+        }
+      });
+    }
 
-    const exitTl = gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        scroller: '#app',
-        start: 'center center',
-        end: 'bottom top',
-        scrub: 0.5,
-      }
-    });
 
-    exitTl.to([title, desc, meta].filter(Boolean), { y: -60, opacity: 0, ease: 'none' }, 0);
-    exitTl.to(bg, { filter: 'blur(4px)', ease: 'none' }, 0);
   });
 }
 
@@ -78,49 +89,61 @@ function updateActiveSection() {
   sections.forEach(section => {
     const rect = section.getBoundingClientRect();
     const sectionCenter = rect.top + rect.height / 2;
-    if (Math.abs(sectionCenter - centerY) < rect.height / 2) {
-      section.classList.add('active');
-    } else {
-      section.classList.remove('active');
-    }
+    const isActive = Math.abs(sectionCenter - centerY) < rect.height / 2;
+    section.classList.toggle('active', isActive);
   });
 }
 
 function initMouseParallax() {
+  let lastMove = 0;
   document.addEventListener('mousemove', (e) => {
+    const now = Date.now();
+    if (now - lastMove < 50) return;
+    lastMove = now;
+
     const x = (e.clientX / window.innerWidth - 0.5) * 2;
     const y = (e.clientY / window.innerHeight - 0.5) * 2;
 
     const activeBg = document.querySelector('.event-section.active .event-bg');
-    if (!activeBg) return;
+    if (!activeBg || !activeBg.classList.contains('loaded')) return;
 
     if (typeof gsap !== 'undefined') {
       gsap.to(activeBg, {
-        x: -x * 15,
-        y: -y * 15,
-        duration: 0.6,
+        x: -x * 12,
+        y: -y * 12,
+        duration: 0.8,
         ease: 'power2.out'
       });
     }
   });
 }
 
+function getSectionHeight() {
+  const section = document.querySelector('.event-section');
+  return section ? section.offsetHeight : window.innerHeight;
+}
+
 function scrollToNextSection() {
-  const sectionHeight = window.innerHeight;
+  const sectionHeight = getSectionHeight();
   const nextIndex = Math.round(app.scrollTop / sectionHeight) + 1;
   const maxIndex = document.querySelectorAll('.event-section').length - 1;
   app.scrollTo({ top: Math.min(nextIndex, maxIndex) * sectionHeight, behavior: 'smooth' });
 }
 
 function scrollToPrevSection() {
-  const sectionHeight = window.innerHeight;
+  const sectionHeight = getSectionHeight();
   const prevIndex = Math.round(app.scrollTop / sectionHeight) - 1;
   app.scrollTo({ top: Math.max(0, prevIndex) * sectionHeight, behavior: 'smooth' });
 }
 
+let scrollRaf = null;
 app.addEventListener('scroll', () => {
-  requestAnimationFrame(updateActiveSection);
-});
+  if (scrollRaf) return;
+  scrollRaf = requestAnimationFrame(() => {
+    updateActiveSection();
+    scrollRaf = null;
+  });
+}, { passive: true });
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowDown' || e.key === 'PageDown') {
