@@ -1,0 +1,52 @@
+<h2>方案 A 设计稿</h2>
+<p class="subtitle">全屏焦点事件 + 下方卡片列表 · 氛围随节日主题变化</p>
+
+<div class="mockup" style="height:240px;background:linear-gradient(135deg,#1e212b 0%,#3a3f4b 100%);border-radius:12px;position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:24px">
+  <div style="display:flex;justify-content:space-between;align-items:center;opacity:.8;font-size:12px">
+    <div>On This Day</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span>‹ 6 月 20 日</span>
+      <span style="font-weight:700;font-size:14px">6 月 21 日</span>
+      <span>6 月 22 日 ›</span>
+    </div>
+  </div>
+  <div style="max-width:70%">
+    <div style="font-size:11px;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:8px">1948 · 科技里程碑</div>
+    <h1 style="font-size:28px;margin:0 0 12px;line-height:1.2">“小婴儿”计算机首次成功运行</h1>
+    <p style="font-size:13px;line-height:1.6;opacity:.9;margin:0">曼彻斯特“小婴儿”是世界上第一台能运行的存储程序式电子计算机，证明了存储程序概念的可行性。</p>
+  </div>
+  <div style="font-size:11px;opacity:.6">向下滚动查看更多</div>
+</div>
+
+<div class="section">
+  <h3>页面结构</h3>
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <div class="mockup" style="height:80px;background:#f4f4f5;border-radius:8px;display:flex;align-items:center;padding:16px;gap:16px">
+      <div style="width:60px;height:60px;background:#d1d5db;border-radius:6px;flex-shrink:0"></div>
+      <div>
+        <div style="font-size:12px;color:#6b7280">1900 · 社会运动</div>
+        <div style="font-size:15px;font-weight:700">事件二标题</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px">一段简短描述文字...</div>
+      </div>
+    </div>
+    <div class="mockup" style="height:80px;background:#f4f4f5;border-radius:8px;display:flex;align-items:center;padding:16px;gap:16px">
+      <div style="width:60px;height:60px;background:#d1d5db;border-radius:6px;flex-shrink:0"></div>
+      <div>
+        <div style="font-size:12px;color:#6b7280">2000 · 国际节日</div>
+        <div style="font-size:15px;font-weight:700">事件三标题</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px">一段简短描述文字...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>设计要点</h3>
+  <ul>
+    <li><strong>Hero 全屏焦点：</strong>每天最重要的事件占满首屏，大图背景 + 渐变遮罩保证文字可读性。</li>
+    <li><strong>主题色随节日变化：</strong>每个事件可配置自己的主色/渐变，科技事件用冷蓝灰，自然节日用绿/金，纪念日用庄重深色。</li>
+    <li><strong>日期导航：</strong>顶部一行简洁的日期切换，左右箭头 + 当前日期，点击可展开日历。</li>
+    <li><strong>下方卡片：</strong>剩余 2-4 个事件以横向或纵向卡片呈现，保持简洁、避免信息过载。</li>
+    <li><strong>动效：</strong>Hero 文字入场动画、日期切换时图片淡入淡出、卡片滚动渐显。</li>
+  </ul>
+</div>

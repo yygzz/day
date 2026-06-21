@@ -1,0 +1,50 @@
+<h2>华丽滚动版：自由滑动 + 鼠标交互</h2>
+<p class="subtitle">用户自主上下滑动 · 滚动中元素分层动画 · 鼠标移动影响背景</p>
+
+<div class="mockup" style="height:260px;background:linear-gradient(135deg,#1e212b 0%,#3a3f4b 100%);border-radius:12px;position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:24px">
+  <div style="display:flex;justify-content:space-between;align-items:center;opacity:.8;font-size:12px;z-index:2">
+    <div>On This Day</div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span>‹ 6 月 20 日</span>
+      <span style="font-weight:700;font-size:14px">6 月 21 日</span>
+      <span>6 月 22 日 ›</span>
+    </div>
+  </div>
+
+  <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:.15;transform:scale(1.1)">
+    <div style="font-size:120px;font-weight:900">1948</div>
+  </div>
+
+  <div style="max-width:75%;z-index:2;transform:translateY(0)">
+    <div style="font-size:11px;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:8px">科技里程碑</div>
+    <h1 style="font-size:32px;margin:0 0 14px;line-height:1.1">“小婴儿”计算机<br>首次成功运行</h1>
+    <p style="font-size:14px;line-height:1.7;opacity:.9;margin:0;max-width:400px">曼彻斯特“小婴儿”是世界上第一台能运行的存储程序式电子计算机。</p>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;align-items:center;font-size:11px;opacity:.6;z-index:2">
+    <div style="display:flex;gap:6px;align-items:center">
+      <div style="width:30px;height:2px;background:#fff"></div>
+      <div style="width:20px;height:2px;background:rgba(255,255,255,.3)"></div>
+      <div style="width:20px;height:2px;background:rgba(255,255,255,.3)"></div>
+      <div style="width:20px;height:2px;background:rgba(255,255,255,.3)"></div>
+    </div>
+    <span>滚动探索 ›</span>
+  </div>
+</div>
+
+<div class="section">
+  <h3>交互与动效设计</h3>
+  <ul>
+    <li><strong>自由滑动：</strong>页面是连续的纵向滚动，不强制分页。用户可以用鼠标滚轮、触摸滑动、键盘方向键自由上下浏览。</li>
+    <li><strong>视差分层：</strong>背景大图、年份水印、标题、描述以不同速度移动，制造深度感。</li>
+    <li><strong>滚动入场动画：</strong>每个事件进入视口时，标题从下方滑入、文字逐行淡入、背景图从 1.05 缩放到 1.0。</li>
+    <li><strong>鼠标动作识别：</strong>移动鼠标时，背景图轻微向鼠标反方向偏移（parallax tilt）；滚轮速度越快，元素模糊/位移越明显。</li>
+    <li><strong>滚动进度条：</strong>左侧或顶部细线显示当天事件浏览进度。</li>
+    <li><strong>日期切换动画：</strong>切换日期时，当前日期的事件整体淡出，新日期内容从底部渐入。</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>技术实现建议</h3>
+  <p>使用 <strong>GSAP + ScrollTrigger</strong> 实现丝滑的滚动联动动画；用 <strong>Lenis</strong> 做平滑滚动（smooth scroll）；鼠标视差用原生 JS 监听 <code>mousemove</code> 和 <code>scroll</code> 事件。</p>
+</div>

@@ -1,0 +1,66 @@
+<h2>核心交互：上下滚动浏览事件</h2>
+<p class="subtitle">垂直方向连续滚动 · 每屏一个事件 · 滚动即切换 · 华丽过渡</p>
+
+<div style="display:flex;flex-direction:column;gap:0;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb">
+  <div class="mockup" style="height:180px;background:linear-gradient(135deg,#1e212b 0%,#3a3f4b 100%);position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:20px;border-radius:0">
+    <div style="display:flex;justify-content:space-between;align-items:center;opacity:.8;font-size:11px;z-index:2">
+      <div>On This Day</div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <span>‹ 6/20</span>
+        <span style="font-weight:700">6 月 21 日</span>
+        <span>6/22 ›</span>
+      </div>
+    </div>
+    <div style="z-index:2">
+      <div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:6px">1948 · 科技里程碑</div>
+      <h1 style="font-size:22px;margin:0 0 8px;line-height:1.2">“小婴儿”计算机首次成功运行</h1>
+      <p style="font-size:12px;line-height:1.6;opacity:.9;margin:0">世界上第一台能运行的存储程序式电子计算机。</p>
+    </div>
+    <div style="position:absolute;right:20px;bottom:20px;font-size:60px;font-weight:900;opacity:.08;z-index:1">1948</div>
+  </div>
+
+  <div style="height:30px;background:#f3f4f6;display:flex;align-items:center;justify-content:center;gap:4px">
+    <span style="font-size:16px;color:#9ca3af">⋮</span>
+    <span style="font-size:11px;color:#6b7280">继续向下滚动</span>
+    <span style="font-size:16px;color:#9ca3af">⋮</span>
+  </div>
+
+  <div class="mockup" style="height:180px;background:linear-gradient(135deg,#2d3a3a 0%,#4a5e5e 100%);position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:20px;border-radius:0">
+    <div style="display:flex;justify-content:space-between;align-items:center;opacity:.8;font-size:11px;z-index:2">
+      <div>On This Day</div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <span>‹ 6/20</span>
+        <span style="font-weight:700">6 月 21 日</span>
+        <span>6/22 ›</span>
+      </div>
+    </div>
+    <div style="z-index:2">
+      <div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;opacity:.7;margin-bottom:6px">2014 · 国际节日</div>
+      <h1 style="font-size:22px;margin:0 0 8px;line-height:1.2">国际瑜伽日</h1>
+      <p style="font-size:12px;line-height:1.6;opacity:.9;margin:0">联合国设立，提高全世界对瑜伽益处的认识。</p>
+    </div>
+    <div style="position:absolute;right:20px;bottom:20px;font-size:60px;font-weight:900;opacity:.08;z-index:1">2014</div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>滚动行为设计</h3>
+  <ul>
+    <li><strong>垂直滚动：</strong>用户像浏览长页面一样上下滚动鼠标滚轮 / 滑动屏幕。</li>
+    <li><strong>每屏锁定：</strong>每个事件占满一屏（100vh），滚动停止时自然吸附到最近的一个事件。</li>
+    <li><strong>吸附动画：</strong>滚动结束后 0.3s 内平滑滑入当前事件中心，不卡顿。</li>
+    <li><strong>鼠标滚轮识别：</strong>检测滚轮方向和速度，快速滚动时动画更剧烈，慢速滚动时细腻过渡。</li>
+    <li><strong>鼠标位置影响：</strong>鼠标在屏幕左侧/右侧/上方/下方时，背景图层轻微偏移，增加沉浸感。</li>
+    <li><strong>键盘支持：</strong>按 ↑/↓ 或 PageUp/PageDown 直接切换到上/下一个事件。</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>华丽动画效果</h3>
+  <ul>
+    <li>事件进入视口：背景图从放大 1.1 缩放到 1.0，标题从下方 60px 滑入 + 淡入。</li>
+    <li>事件退出视口：文字向上淡出，背景图略微模糊。</li>
+    <li>年份水印：以极慢速度反向滚动，形成视差。</li>
+    <li>日期切换：整页内容垂直位移，旧日期向上/向下淡出，新日期进入。</li>
+  </ul>
+</div>

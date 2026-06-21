@@ -1,0 +1,60 @@
+<h2>三种首页布局方向</h2>
+<p class="subtitle">每天 3-5 个国际重要日子 · 视觉氛围随节日变化 · 支持日期切换</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>全屏焦点 + 下方卡片</h3>
+      <p>第一个事件占满首屏（类似你发的示例），大背景图+叠加文字；向下滚动是其余 2-4 个事件的窄卡片。冲击力强，主次分明。</p>
+      <div class="mockup" style="margin-top:12px;height:140px;background:linear-gradient(135deg,#2d3142 0%,#4f5d75 100%);display:flex;align-items:flex-end;padding:16px;color:#fff;border-radius:8px">
+        <div>
+          <div style="font-size:10px;opacity:.7">1948 年 6 月 21 日</div>
+          <div style="font-size:16px;font-weight:700">“小婴儿”计算机首次成功运行</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;margin-top:8px">
+        <div class="mockup" style="flex:1;height:60px;background:#efefef;border-radius:6px"></div>
+        <div class="mockup" style="flex:1;height:60px;background:#efefef;border-radius:6px"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>横向沉浸式轮播</h3>
+      <p>每个事件都是一张全屏“海报”，左右滑动或键盘切换。整站像一本可翻阅的“历史上的今天”画册，视觉冲击力最强。</p>
+      <div class="mockup" style="margin-top:12px;height:140px;background:linear-gradient(135deg,#3d2b1f 0%,#5e4b35 100%);display:flex;align-items:center;justify-content:space-between;padding:0 20px;color:#fff;border-radius:8px">
+        <div style="font-size:24px">‹</div>
+        <div style="text-align:center">
+          <div style="font-size:10px;opacity:.7">1969 年 7 月 20 日</div>
+          <div style="font-size:16px;font-weight:700">人类首次登月</div>
+        </div>
+        <div style="font-size:24px">›</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>编辑杂志网格</h3>
+      <p>首屏即呈现全部 3-5 个事件：一个主图大卡片+若干小卡片错落排布。像报纸头版，信息密度高，适合想一眼扫完的用户。</p>
+      <div style="display:grid;grid-template-columns:2fr 1fr;gap:8px;margin-top:12px">
+        <div class="mockup" style="height:140px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);border-radius:8px;color:#fff;display:flex;align-items:flex-end;padding:12px">
+          <div style="font-size:14px;font-weight:700">主事件</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div class="mockup" style="flex:1;background:#e0e0e0;border-radius:6px"></div>
+          <div class="mockup" style="flex:1;background:#e0e0e0;border-radius:6px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>我的推荐</h3>
+  <p><strong>推荐 A（全屏焦点 + 下方卡片）</strong>：它兼具你示例中“全屏图片+文字叠加”的视觉冲击力，又把其余事件以卡片形式自然承接，便于日期切换和扩展；后续接入 API 时只需要替换数据源，结构最稳定。</p>
+</div>

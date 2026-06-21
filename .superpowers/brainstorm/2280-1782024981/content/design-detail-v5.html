@@ -1,0 +1,42 @@
+<h2>严格一屏一事件：每个事件占满整个网页</h2>
+<p class="subtitle">100vh 全屏 · 无分隔条 · 滚动切换 · 每个事件就是一张独立海报</p>
+
+<div class="mockup" style="height:280px;background:linear-gradient(135deg,#1e212b 0%,#3a3f4b 100%);border-radius:12px;position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:28px">
+  <div style="display:flex;justify-content:space-between;align-items:center;opacity:.85;font-size:12px;z-index:2">
+    <div style="font-weight:600">On This Day</div>
+    <div style="display:flex;gap:14px;align-items:center">
+      <span style="cursor:pointer">‹ 6/20</span>
+      <span style="font-weight:700;font-size:14px;padding:4px 10px;background:rgba(255,255,255,.15);border-radius:4px">6 月 21 日</span>
+      <span style="cursor:pointer">6/22 ›</span>
+    </div>
+  </div>
+
+  <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1;pointer-events:none">
+    <div style="width:200px;height:140px;background:rgba(255,255,255,.06);border-radius:12px;transform:rotate(-6deg)"></div>
+  </div>
+
+  <div style="max-width:75%;z-index:2">
+    <div style="font-size:11px;text-transform:uppercase;letter-spacing:.12em;opacity:.65;margin-bottom:10px">1948 · 科技里程碑</div>
+    <h1 style="font-size:34px;margin:0 0 16px;line-height:1.05;font-weight:800">“小婴儿”计算机<br>首次成功运行</h1>
+    <p style="font-size:15px;line-height:1.75;opacity:.9;margin:0;max-width:420px">曼彻斯特“小婴儿”是世界上第一台能运行的存储程序式电子计算机，证明了存储程序概念的可行性。</p>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;z-index:2">
+    <div style="font-size:72px;font-weight:900;opacity:.08;line-height:1">1948</div>
+    <div style="text-align:right;font-size:11px;opacity:.55">
+      <div>事件 1 / 4</div>
+      <div style="margin-top:4px">↓ 向下滚动查看下一个</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>最终确认点</h3>
+  <ul>
+    <li><strong>每个事件严格占满整个视口（100vh）：</strong>没有中间分隔条，没有小卡片，每个事件就是一张全屏海报。</li>
+    <li><strong>每天 3-5 个事件纵向堆叠：</strong>整页高度 = 事件数 × 100vh，用户上下滚动自然切换。</li>
+    <li><strong>滚动吸附：</strong>滚动停止后自动吸附到完整的一屏，不会出现两个事件各露一半的情况。</li>
+    <li><strong>背景图铺满：</strong>每个事件可用自己的背景图或渐变，大图全屏 + 深色遮罩保证文字可读。</li>
+    <li><strong>鼠标交互：</strong>移动鼠标时背景/装饰层轻微视差偏移；滚轮速度影响过渡强度。</li>
+  </ul>
+</div>
