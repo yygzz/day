@@ -101,7 +101,7 @@ function createEventSection(event, index, total) {
       <p class="event-description">${event.description}</p>
     </div>
     <div class="event-year-watermark">${event.year || ''}</div>
-    <div class="event-progress">事件 ${index + 1} / ${total}</div>
+    <div class="event-progress">${index + 1} / ${total}</div>
   `;
 
   const bg = section.querySelector('.event-bg');
@@ -171,8 +171,8 @@ function renderEmptyState(container) {
       <div class="event-overlay"></div>
       <div class="event-content">
         <div class="event-meta">暂无记录</div>
-        <h1 class="event-title">这一天还没有收录事件</h1>
-        <p class="event-description">试试切换日期，或者回来再看看。我们会在后续补充更多国际重要日子。</p>
+        <h1 class="event-title">这一天尚未收录事件</h1>
+        <p class="event-description">换个日期试试，更多国际重要日子正在补充中。</p>
       </div>
     </section>
   `;

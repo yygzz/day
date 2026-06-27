@@ -8,8 +8,20 @@ html, body {
   height: 100%;
   font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: hidden;
-  background: #0f0f11;
+  background: #0a0a0c;
   color: #fff;
+}
+
+/* Liquid glass utility */
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
 }
 
 #app {
@@ -25,6 +37,112 @@ html, body {
   display: none;
 }
 
+.date-nav {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  right: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  z-index: 100;
+  color: #fff;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+.date-nav > * {
+  pointer-events: auto;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+}
+
+.date-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 4px 6px;
+}
+
+.date-controls button {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  line-height: 1;
+  border-radius: 12px;
+  transition: background 0.2s ease, transform 0.15s ease;
+  display: grid;
+  place-items: center;
+}
+
+.date-controls button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.date-controls button:active {
+  transform: scale(0.94);
+}
+
+.date-controls span {
+  font-size: 13px;
+  font-weight: 600;
+  min-width: 120px;
+  text-align: center;
+}
+
+.holidays-bar {
+  position: fixed;
+  top: 82px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  padding: 8px 14px;
+  z-index: 99;
+  max-width: calc(100% - 36px);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  border-radius: 18px;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  pointer-events: none;
+}
+
+.holidays-bar.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+.holidays-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.holiday-chip {
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+}
+
 .event-section {
   position: relative;
   width: 100%;
@@ -35,8 +153,8 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 28px;
+  justify-content: flex-end;
+  padding: 120px 24px 40px;
   background: var(--event-gradient);
   will-change: transform;
 }
@@ -47,7 +165,7 @@ html, body {
   background-size: cover;
   background-position: center;
   transform: scale(1.05);
-  transition: opacity 0.8s ease, transform 0.1s linear;
+  transition: opacity 0.9s ease, transform 0.9s ease;
   z-index: 0;
   opacity: 0;
 }
@@ -60,150 +178,180 @@ html, body {
 .event-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.25) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.35) 60%, rgba(0,0,0,0.65) 100%);
   z-index: 1;
 }
 
 .event-content {
   position: relative;
   z-index: 2;
-  max-width: 75%;
-  margin-top: auto;
-  margin-bottom: auto;
+  max-width: 720px;
+  margin-bottom: 10vh;
 }
 
 .event-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 11px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  opacity: 0.65;
-  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  opacity: 0.75;
+  margin-bottom: 14px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: fit-content;
 }
 
 .event-title {
-  font-size: clamp(28px, 5vw, 56px);
+  font-size: clamp(32px, 6vw, 64px);
   line-height: 1.05;
-  font-weight: 800;
-  margin: 0 0 16px 0;
+  font-weight: 900;
+  margin: 0 0 18px 0;
+  letter-spacing: -0.02em;
 }
 
 .event-description {
-  font-size: clamp(14px, 1.6vw, 18px);
-  line-height: 1.75;
-  opacity: 0.9;
+  font-size: clamp(15px, 1.7vw, 19px);
+  line-height: 1.7;
+  opacity: 0.92;
   margin: 0;
-  max-width: 520px;
+  max-width: 560px;
 }
 
 .event-year-watermark {
   position: absolute;
-  left: 28px;
+  left: 24px;
   bottom: 28px;
-  font-size: clamp(48px, 10vw, 120px);
+  font-size: clamp(52px, 12vw, 140px);
   font-weight: 900;
   opacity: 0.08;
   line-height: 1;
   z-index: 1;
   pointer-events: none;
+  letter-spacing: -0.04em;
 }
 
 .event-progress {
   position: absolute;
-  right: 28px;
+  right: 24px;
   bottom: 28px;
   font-size: 12px;
-  opacity: 0.55;
+  font-weight: 600;
+  opacity: 0.6;
   z-index: 2;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .text-dark .event-title,
 .text-dark .event-description,
 .text-dark .event-meta,
-.text-dark .event-progress {
+.text-dark .event-progress,
+.text-dark .event-year-watermark {
   color: #111;
 }
 
 .text-dark .event-overlay {
-  background: linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.45) 60%, rgba(255,255,255,0.65) 100%);
 }
 
-.date-nav {
+.text-dark .event-meta,
+.text-dark .event-progress {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.scroll-hint {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 18px 28px;
-  z-index: 100;
-  color: #fff;
-  pointer-events: none;
-}
-
-.date-nav > * {
-  pointer-events: auto;
-}
-
-.brand {
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
-
-.date-controls {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(10px);
-  padding: 6px 12px;
-  border-radius: 8px;
-}
-
-.date-controls button {
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
-  padding: 4px 8px;
-  line-height: 1;
-  border-radius: 4px;
-  transition: background 0.2s ease;
-}
-
-.date-controls button:hover {
-  background: rgba(255,255,255,0.15);
-}
-
-.date-controls span {
-  font-size: 14px;
+  gap: 8px;
+  font-size: 11px;
   font-weight: 600;
-  min-width: 140px;
-  text-align: center;
+  letter-spacing: 0.06em;
+  opacity: 0.55;
+  z-index: 90;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.scroll-hint.hidden {
+  opacity: 0;
+}
+
+.scroll-line {
+  width: 1px;
+  height: 28px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 100%);
+  animation: scrollPulse 1.6s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%, 100% { transform: scaleY(1); opacity: 0.5; }
+  50% { transform: scaleY(0.6); opacity: 1; }
 }
 
 @media (max-width: 768px) {
-  .event-section {
-    padding: 20px;
+  .glass {
+    border-radius: 20px;
   }
-  .event-content {
-    max-width: 90%;
-  }
-  .event-year-watermark {
-    left: 20px;
-    bottom: 20px;
-  }
-  .event-progress {
-    right: 20px;
-    bottom: 20px;
-  }
+
   .date-nav {
-    padding: 14px 20px;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    padding: 10px 14px;
+    border-radius: 18px;
   }
+
+  .brand {
+    font-size: 14px;
+  }
+
   .date-controls span {
-    font-size: 13px;
-    min-width: 110px;
+    min-width: 96px;
+    font-size: 12px;
+  }
+
+  .holidays-bar {
+    top: 74px;
+    max-width: calc(100% - 24px);
+    padding: 6px 10px;
+    border-radius: 16px;
+  }
+
+  .holiday-chip {
+    font-size: 10px;
+    padding: 4px 9px;
+    border-radius: 10px;
+  }
+
+  .event-section {
+    padding: 110px 18px 32px;
+  }
+
+  .event-content {
+    max-width: 100%;
+    margin-bottom: 8vh;
+  }
+
+  .event-year-watermark {
+    left: 18px;
+    bottom: 22px;
+  }
+
+  .event-progress {
+    right: 18px;
+    bottom: 22px;
   }
 }

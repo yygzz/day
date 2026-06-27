@@ -1,4 +1,4 @@
-import { getEventsForDate, formatDisplayDate, addDays } from './data.js';
+import { getEventsForDate, getHolidaysForDate, formatDisplayDate, addDays } from './data.js';
 import { renderEvents } from './renderer.js';
 
 let currentDate = new Date();
@@ -6,17 +6,43 @@ const app = document.getElementById('app');
 const dateLabel = document.getElementById('current-date');
 const prevBtn = document.getElementById('prev-date');
 const nextBtn = document.getElementById('next-date');
+const holidaysBar = document.getElementById('holidays-bar');
+const scrollHint = document.getElementById('scroll-hint');
 
 async function loadDate(date) {
   currentDate = date;
   dateLabel.textContent = formatDisplayDate(date);
-  const events = await getEventsForDate(date);
 
-  // Instant reset avoids scroll-snap fighting with smooth scroll during re-render
+  const [events, holidays] = await Promise.all([
+    getEventsForDate(date),
+    getHolidaysForDate(date)
+  ]);
+
+  renderHolidays(holidays);
+
+  // 切换日期时瞬时重置滚动，避免 scroll-snap 与平滑滚动冲突
   app.scrollTop = 0;
   renderEvents(events, app);
   initScrollAnimations();
   updateActiveSection();
+}
+
+function renderHolidays(holidays) {
+  holidaysBar.innerHTML = '';
+  if (!holidays.length) {
+    holidaysBar.classList.remove('visible');
+    return;
+  }
+
+  holidays.forEach(h => {
+    const chip = document.createElement('span');
+    chip.className = 'holiday-chip';
+    chip.textContent = h.name;
+    chip.title = h.en;
+    holidaysBar.appendChild(chip);
+  });
+
+  holidaysBar.classList.add('visible');
 }
 
 prevBtn.addEventListener('click', () => loadDate(addDays(currentDate, -1)));
@@ -33,19 +59,18 @@ function initScrollAnimations() {
   const sections = document.querySelectorAll('.event-section');
 
   sections.forEach((section) => {
-    const bg = section.querySelector('.event-bg');
     const title = section.querySelector('.event-title');
     const desc = section.querySelector('.event-description');
     const meta = section.querySelector('.event-meta');
     const watermark = section.querySelector('.event-year-watermark');
 
-    if (!bg || !title) return;
+    if (!title) return;
 
-    // Set initial states for a smooth entrance
+    // 初始状态：内容偏下并透明
     gsap.set([title, desc, meta].filter(Boolean), { y: 40, opacity: 0 });
     if (watermark) gsap.set(watermark, { y: 60, opacity: 0 });
 
-    // Entrance: fade/slide content up when section reaches center
+    // 进入视口时淡入上滑
     gsap.to([title, desc, meta].filter(Boolean), {
       y: 0,
       opacity: 1,
@@ -76,8 +101,6 @@ function initScrollAnimations() {
         }
       });
     }
-
-
   });
 }
 
@@ -109,9 +132,9 @@ function initMouseParallax() {
 
     if (typeof gsap !== 'undefined') {
       gsap.to(activeBg, {
-        x: -x * 12,
-        y: -y * 12,
-        duration: 0.8,
+        x: -x * 10,
+        y: -y * 10,
+        duration: 0.9,
         ease: 'power2.out'
       });
     }
@@ -145,15 +168,24 @@ app.addEventListener('scroll', () => {
   });
 }, { passive: true });
 
+// 首次滚动后隐藏提示
 document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowDown' || e.key === 'PageDown') {
     e.preventDefault();
     scrollToNextSection();
+    hideScrollHint();
   } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
     e.preventDefault();
     scrollToPrevSection();
+    hideScrollHint();
   }
 });
+
+function hideScrollHint() {
+  if (scrollHint) scrollHint.classList.add('hidden');
+}
+
+app.addEventListener('scroll', hideScrollHint, { once: true, passive: true });
 
 initMouseParallax();
 loadDate(currentDate);

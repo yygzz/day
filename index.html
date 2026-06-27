@@ -3,23 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>On This Day - 历史上的今天</title>
+  <title>历史上的今天 · On This Day</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <nav class="date-nav">
-    <div class="brand">On This Day</div>
+  <nav class="date-nav glass">
+    <div class="brand">历史上的今天</div>
     <div class="date-controls">
       <button id="prev-date" aria-label="前一天">‹</button>
-      <span id="current-date">Loading...</span>
+      <span id="current-date">载入中…</span>
       <button id="next-date" aria-label="后一天">›</button>
     </div>
   </nav>
 
+  <div class="holidays-bar glass" id="holidays-bar" aria-label="当日节日"></div>
+
   <main id="app" tabindex="0" aria-label="事件列表"></main>
+
+  <div class="scroll-hint" id="scroll-hint">
+    <span>滑动或按方向键浏览</span>
+    <span class="scroll-line"></span>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
