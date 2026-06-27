@@ -25,9 +25,9 @@ html, body {
 }
 
 #app {
+  position: relative;
   height: 100vh;
   overflow-y: scroll;
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -148,8 +148,6 @@ html, body {
   width: 100%;
   height: 100vh;
   flex-shrink: 0;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
   overflow: hidden;
   display: flex;
   flex-direction: column;

@@ -20,7 +20,7 @@ async function loadDate(date) {
 
   renderHolidays(holidays);
 
-  // 切换日期时瞬时重置滚动，避免 scroll-snap 与平滑滚动冲突
+  // 切换日期时瞬时重置滚动，避免动画冲突
   app.scrollTop = 0;
   renderEvents(events, app);
   initScrollAnimations();
@@ -48,6 +48,19 @@ function renderHolidays(holidays) {
 prevBtn.addEventListener('click', () => loadDate(addDays(currentDate, -1)));
 nextBtn.addEventListener('click', () => loadDate(addDays(currentDate, 1)));
 
+function createSnapTrack(totalSections) {
+  let track = document.getElementById('snap-track');
+  if (!track) {
+    track = document.createElement('div');
+    track.id = 'snap-track';
+    track.style.cssText = 'position:absolute;top:0;left:0;width:1px;pointer-events:none;z-index:-1;';
+    app.appendChild(track);
+  }
+  const sectionHeight = getSectionHeight();
+  track.style.height = `${totalSections * sectionHeight}px`;
+  return track;
+}
+
 function initScrollAnimations() {
   if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
     return;
@@ -57,7 +70,11 @@ function initScrollAnimations() {
   ScrollTrigger.getAll().forEach(t => t.kill());
 
   const sections = document.querySelectorAll('.event-section');
+  const total = sections.length;
 
+  if (total === 0) return;
+
+  // 内容入场动画
   sections.forEach((section) => {
     const title = section.querySelector('.event-title');
     const desc = section.querySelector('.event-description');
@@ -66,11 +83,9 @@ function initScrollAnimations() {
 
     if (!title) return;
 
-    // 初始状态：内容偏下并透明
     gsap.set([title, desc, meta].filter(Boolean), { y: 40, opacity: 0 });
     if (watermark) gsap.set(watermark, { y: 60, opacity: 0 });
 
-    // 进入视口时淡入上滑
     gsap.to([title, desc, meta].filter(Boolean), {
       y: 0,
       opacity: 1,
@@ -102,6 +117,29 @@ function initScrollAnimations() {
       });
     }
   });
+
+  // 平滑吸附：根据滚动距离动态调整时长，避免生硬
+  if (total > 1) {
+    const track = createSnapTrack(total);
+    const sectionHeight = getSectionHeight();
+    const maxDuration = 0.55;
+
+    ScrollTrigger.create({
+      trigger: track,
+      scroller: '#app',
+      start: 'top top',
+      end: 'bottom bottom',
+      snap: {
+        snapTo: (progress) => {
+          const snap = 1 / (total - 1);
+          return Math.round(progress / snap) * snap;
+        },
+        duration: { min: 0.2, max: maxDuration },
+        delay: 0,
+        ease: 'power2.out'
+      }
+    });
+  }
 }
 
 function updateActiveSection() {
@@ -168,7 +206,6 @@ app.addEventListener('scroll', () => {
   });
 }, { passive: true });
 
-// 首次滚动后隐藏提示
 document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowDown' || e.key === 'PageDown') {
     e.preventDefault();
@@ -186,6 +223,21 @@ function hideScrollHint() {
 }
 
 app.addEventListener('scroll', hideScrollHint, { once: true, passive: true });
+
+let resizeTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    const track = document.getElementById('snap-track');
+    const total = document.querySelectorAll('.event-section').length;
+    if (track && total > 0) {
+      track.style.height = `${total * getSectionHeight()}px`;
+    }
+    if (typeof ScrollTrigger !== 'undefined') {
+      ScrollTrigger.refresh();
+    }
+  }, 150);
+});
 
 initMouseParallax();
 loadDate(currentDate);
