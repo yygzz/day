@@ -19,6 +19,7 @@ async function loadDate(date) {
   ]);
 
   renderHolidays(holidays);
+  syncDatePicker(currentDate);
 
   // 切换日期时瞬时重置滚动，避免动画冲突
   app.scrollTop = 0;
@@ -45,8 +46,27 @@ function renderHolidays(holidays) {
   holidaysBar.classList.add('visible');
 }
 
+const datePicker = document.getElementById('date-picker');
+const todayBtn = document.getElementById('today-btn');
+
 prevBtn.addEventListener('click', () => loadDate(addDays(currentDate, -1)));
 nextBtn.addEventListener('click', () => loadDate(addDays(currentDate, 1)));
+
+todayBtn.addEventListener('click', () => loadDate(new Date()));
+
+datePicker.addEventListener('change', (e) => {
+  const value = e.target.value;
+  if (!value) return;
+  loadDate(new Date(value + 'T00:00:00'));
+});
+
+function syncDatePicker(date) {
+  if (!datePicker) return;
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const d = String(date.getDate()).padStart(2, '0');
+  datePicker.value = `${y}-${m}-${d}`;
+}
 
 function createSnapTrack(totalSections) {
   let track = document.getElementById('snap-track');
