@@ -111,14 +111,23 @@ async function renderNews(container) {
   // 进度指示
   const progress = document.createElement('div');
   progress.className = 'news-progress';
-  progress.textContent = `1 / ${items.length}`;
+  for (let i = 0; i < items.length; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'news-progress-dot';
+    dot.dataset.index = i;
+    progress.appendChild(dot);
+  }
   container.appendChild(progress);
 
-  view.addEventListener('scroll', () => {
+  const updateDots = () => {
     const cardHeight = view.offsetHeight;
-    const index = Math.round(view.scrollTop / cardHeight) + 1;
-    progress.textContent = `${Math.min(index, items.length)} / ${items.length}`;
-  }, { passive: true });
+    const index = Math.round(view.scrollTop / cardHeight);
+    progress.querySelectorAll('.news-progress-dot').forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
+  };
+  view.addEventListener('scroll', updateDots, { passive: true });
+  updateDots();
 }
 
 export { renderNews };

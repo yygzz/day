@@ -11,6 +11,7 @@ const nextBtn = document.getElementById('next-date');
 const holidaysBar = document.getElementById('holidays-bar');
 const scrollHint = document.getElementById('scroll-hint');
 const tabBtns = document.querySelectorAll('.tab-btn');
+const tabsContainer = document.querySelector('.section-tabs');
 const dateControls = document.querySelector('.date-controls');
 const datePicker = document.getElementById('date-picker');
 const todayBtn = document.getElementById('today-btn');
@@ -83,6 +84,10 @@ function switchView(view) {
   tabBtns.forEach(btn => {
     btn.classList.toggle('active', btn.dataset.view === view);
   });
+
+  if (tabsContainer) {
+    tabsContainer.setAttribute('data-active', view);
+  }
 
   if (view === 'history') {
     dateControls.style.display = '';
@@ -191,14 +196,21 @@ function initScrollAnimations() {
 function updateActiveSection() {
   if (currentView !== 'history') return;
   const sections = document.querySelectorAll('.event-section');
+  const dots = document.querySelectorAll('.event-progress-dot');
   const appRect = app.getBoundingClientRect();
   const centerY = appRect.top + appRect.height / 2;
 
-  sections.forEach(section => {
+  let activeIndex = 0;
+  sections.forEach((section, index) => {
     const rect = section.getBoundingClientRect();
     const sectionCenter = rect.top + rect.height / 2;
     const isActive = Math.abs(sectionCenter - centerY) < rect.height / 2;
     section.classList.toggle('active', isActive);
+    if (isActive) activeIndex = index;
+  });
+
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active', index === activeIndex);
   });
 }
 

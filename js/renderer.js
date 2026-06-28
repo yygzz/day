@@ -96,12 +96,11 @@ function createEventSection(event, index, total) {
     <div class="event-bg" data-candidates='${JSON.stringify(candidates)}'></div>
     <div class="event-overlay"></div>
     <div class="event-content">
-      <div class="event-meta">${event.year || '历史'} · ${categoryLabel(category)}</div>
+      <div class="event-meta"><span>${event.year || '历史'}</span><span>${categoryLabel(category)}</span></div>
       <h1 class="event-title">${event.title}</h1>
       <p class="event-description">${event.description}</p>
     </div>
     <div class="event-year-watermark">${event.year || ''}</div>
-    <div class="event-progress">${index + 1} / ${total}</div>
   `;
 
   const bg = section.querySelector('.event-bg');
@@ -189,6 +188,18 @@ function renderEvents(events, container) {
     const section = createEventSection(event, index, total);
     container.appendChild(section);
   });
+
+  const progress = document.createElement('div');
+  progress.className = 'event-progress';
+  progress.id = 'event-progress';
+  for (let i = 0; i < total; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'event-progress-dot';
+    dot.dataset.index = i;
+    progress.appendChild(dot);
+  }
+  container.appendChild(progress);
+
   preloadNextImages(events, 0, 3);
 }
 
