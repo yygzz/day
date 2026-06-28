@@ -115,8 +115,8 @@ async function renderNews(container) {
   container.appendChild(progress);
 
   view.addEventListener('scroll', () => {
-    const cardWidth = view.offsetWidth;
-    const index = Math.round(view.scrollLeft / cardWidth) + 1;
+    const cardHeight = view.offsetHeight;
+    const index = Math.round(view.scrollTop / cardHeight) + 1;
     progress.textContent = `${Math.min(index, items.length)} / ${items.length}`;
   }, { passive: true });
 }
