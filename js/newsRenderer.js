@@ -25,20 +25,78 @@ function categoryLabel(category) {
   return labels[category] || '国际';
 }
 
+const NEWS_CATEGORY_IMAGES = {
+  politics: [
+    'https://images.unsplash.com/photo-1540910419-d4734630c087?w=1920&q=80',
+    'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1920&q=80',
+    'https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1920&q=80',
+    'https://images.unsplash.com/photo-1572949791660-6626e0e8d482?w=1920&q=80',
+    'https://images.unsplash.com/photo-1523995462485-3d171b5c8fa9?w=1920&q=80',
+    'https://images.unsplash.com/photo-1569025743873-ea3a9c52589b?w=1920&q=80'
+  ],
+  conflict: [
+    'https://images.unsplash.com/photo-1580130379745-139975c7e62c?w=1920&q=80',
+    'https://images.unsplash.com/photo-1558522195-e1201b090344?w=1920&q=80',
+    'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1920&q=80',
+    'https://images.unsplash.com/photo-1590073242676-cfea6866c272?w=1920&q=80',
+    'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?w=1920&q=80',
+    'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1920&q=80'
+  ],
+  economy: [
+    'https://images.unsplash.com/photo-1611974765270-ca12586343bb?w=1920&q=80',
+    'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1920&q=80',
+    'https://images.unsplash.com/photo-1611974765270-ca12586343bb?w=1920&q=80',
+    'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80',
+    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80',
+    'https://images.unsplash.com/photo-1468254095679-bbcba94a7066?w=1920&q=80'
+  ],
+  technology: [
+    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=80',
+    'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=80',
+    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80',
+    'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80',
+    'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&q=80',
+    'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=80'
+  ],
+  science: [
+    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80',
+    'https://images.unsplash.com/photo-1446776811953-d23d52307f7a?w=1920&q=80',
+    'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80',
+    'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920&q=80',
+    'https://images.unsplash.com/photo-1576086213369-97a306d36757?w=1920&q=80',
+    'https://images.unsplash.com/photo-1507668077129-56e3f0907c17?w=1920&q=80'
+  ],
+  society: [
+    'https://images.unsplash.com/photo-1569180882533-0642c64ebc6f?w=1920&q=80',
+    'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=1920&q=80',
+    'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80',
+    'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=80',
+    'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1920&q=80',
+    'https://images.unsplash.com/photo-1576153192396-180ecef2a715?w=1920&q=80'
+  ],
+  culture: [
+    'https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=1920&q=80',
+    'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=1920&q=80',
+    'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1920&q=80',
+    'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=1920&q=80',
+    'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1920&q=80',
+    'https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=1920&q=80'
+  ],
+  sports: [
+    'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1920&q=80',
+    'https://images.unsplash.com/photo-1515523110800-9415d13b84a8?w=1920&q=80',
+    'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1920&q=80',
+    'https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=1920&q=80',
+    'https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=1920&q=80',
+    'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1920&q=80'
+  ]
+};
+
 function buildImageCandidates(item, index) {
   const category = item.category || 'politics';
   const candidates = [];
   if (item.image) candidates.push(item.image);
-  const images = [
-    'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1920&q=80',
-    'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&q=80',
-    'https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1920&q=80',
-    'https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1920&q=80',
-    'https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=1920&q=80',
-    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80',
-    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=80',
-    'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80'
-  ];
+  const images = NEWS_CATEGORY_IMAGES[category] || NEWS_CATEGORY_IMAGES.politics;
   for (let i = 0; i < images.length; i++) {
     candidates.push(images[(index + i) % images.length]);
   }
