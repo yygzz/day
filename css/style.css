@@ -464,7 +464,7 @@ html, body {
 
 .news-card-badges {
   position: absolute;
-  top: 24px;
+  top: 84px;
   right: 28px;
   display: flex;
   gap: 6px;
@@ -728,7 +728,7 @@ html, body {
   }
 
   .news-card-badges {
-    top: 18px;
+    top: 74px;
     right: 18px;
   }
 
