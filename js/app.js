@@ -1,13 +1,19 @@
 import { getEventsForDate, getHolidaysForDate, formatDisplayDate, addDays } from './data.js';
 import { renderEvents } from './renderer.js';
+import { renderNews } from './newsRenderer.js';
 
 let currentDate = new Date();
+let currentView = 'history';
 const app = document.getElementById('app');
 const dateLabel = document.getElementById('current-date');
 const prevBtn = document.getElementById('prev-date');
 const nextBtn = document.getElementById('next-date');
 const holidaysBar = document.getElementById('holidays-bar');
 const scrollHint = document.getElementById('scroll-hint');
+const tabBtns = document.querySelectorAll('.tab-btn');
+const dateControls = document.querySelector('.date-controls');
+const datePicker = document.getElementById('date-picker');
+const todayBtn = document.getElementById('today-btn');
 
 async function loadDate(date) {
   currentDate = date;
@@ -21,7 +27,6 @@ async function loadDate(date) {
   renderHolidays(holidays);
   syncDatePicker(currentDate);
 
-  // 切换日期时瞬时重置滚动，避免动画冲突
   app.scrollTop = 0;
   renderEvents(events, app);
   initScrollAnimations();
@@ -30,7 +35,7 @@ async function loadDate(date) {
 
 function renderHolidays(holidays) {
   holidaysBar.innerHTML = '';
-  if (!holidays.length) {
+  if (!holidays.length || currentView !== 'history') {
     holidaysBar.classList.remove('visible');
     return;
   }
@@ -46,12 +51,16 @@ function renderHolidays(holidays) {
   holidaysBar.classList.add('visible');
 }
 
-const datePicker = document.getElementById('date-picker');
-const todayBtn = document.getElementById('today-btn');
+function syncDatePicker(date) {
+  if (!datePicker) return;
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const d = String(date.getDate()).padStart(2, '0');
+  datePicker.value = `${y}-${m}-${d}`;
+}
 
 prevBtn.addEventListener('click', () => loadDate(addDays(currentDate, -1)));
 nextBtn.addEventListener('click', () => loadDate(addDays(currentDate, 1)));
-
 todayBtn.addEventListener('click', () => loadDate(new Date()));
 
 datePicker.addEventListener('change', (e) => {
@@ -60,12 +69,33 @@ datePicker.addEventListener('change', (e) => {
   loadDate(new Date(value + 'T00:00:00'));
 });
 
-function syncDatePicker(date) {
-  if (!datePicker) return;
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, '0');
-  const d = String(date.getDate()).padStart(2, '0');
-  datePicker.value = `${y}-${m}-${d}`;
+tabBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const view = btn.dataset.view;
+    if (view === currentView) return;
+    switchView(view);
+  });
+});
+
+function switchView(view) {
+  currentView = view;
+
+  tabBtns.forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.view === view);
+  });
+
+  if (view === 'history') {
+    dateControls.style.display = '';
+    loadDate(currentDate);
+    if (scrollHint) scrollHint.classList.remove('hidden');
+  } else {
+    dateControls.style.display = 'none';
+    holidaysBar.classList.remove('visible');
+    app.innerHTML = '';
+    renderNews(app);
+    if (scrollHint) scrollHint.classList.add('hidden');
+    // 隐藏滚动提示的滚动监听重置
+  }
 }
 
 function createSnapTrack(totalSections) {
@@ -94,7 +124,6 @@ function initScrollAnimations() {
 
   if (total === 0) return;
 
-  // 内容入场动画
   sections.forEach((section) => {
     const title = section.querySelector('.event-title');
     const desc = section.querySelector('.event-description');
@@ -138,11 +167,8 @@ function initScrollAnimations() {
     }
   });
 
-  // 平滑吸附：根据滚动距离动态调整时长，避免生硬
   if (total > 1) {
     const track = createSnapTrack(total);
-    const sectionHeight = getSectionHeight();
-    const maxDuration = 0.55;
 
     ScrollTrigger.create({
       trigger: track,
@@ -154,7 +180,7 @@ function initScrollAnimations() {
           const snap = 1 / (total - 1);
           return Math.round(progress / snap) * snap;
         },
-        duration: { min: 0.2, max: maxDuration },
+        duration: { min: 0.2, max: 0.55 },
         delay: 0,
         ease: 'power2.out'
       }
@@ -163,6 +189,7 @@ function initScrollAnimations() {
 }
 
 function updateActiveSection() {
+  if (currentView !== 'history') return;
   const sections = document.querySelectorAll('.event-section');
   const appRect = app.getBoundingClientRect();
   const centerY = appRect.top + appRect.height / 2;
@@ -181,6 +208,8 @@ function initMouseParallax() {
     const now = Date.now();
     if (now - lastMove < 50) return;
     lastMove = now;
+
+    if (currentView !== 'history') return;
 
     const x = (e.clientX / window.innerWidth - 0.5) * 2;
     const y = (e.clientY / window.innerHeight - 0.5) * 2;
@@ -205,6 +234,7 @@ function getSectionHeight() {
 }
 
 function scrollToNextSection() {
+  if (currentView !== 'history') return;
   const sectionHeight = getSectionHeight();
   const nextIndex = Math.round(app.scrollTop / sectionHeight) + 1;
   const maxIndex = document.querySelectorAll('.event-section').length - 1;
@@ -212,6 +242,7 @@ function scrollToNextSection() {
 }
 
 function scrollToPrevSection() {
+  if (currentView !== 'history') return;
   const sectionHeight = getSectionHeight();
   const prevIndex = Math.round(app.scrollTop / sectionHeight) - 1;
   app.scrollTo({ top: Math.max(0, prevIndex) * sectionHeight, behavior: 'smooth' });
@@ -227,6 +258,7 @@ app.addEventListener('scroll', () => {
 }, { passive: true });
 
 document.addEventListener('keydown', (e) => {
+  if (currentView !== 'history') return;
   if (e.key === 'ArrowDown' || e.key === 'PageDown') {
     e.preventDefault();
     scrollToNextSection();

@@ -12,6 +12,10 @@
 <body>
   <nav class="date-nav glass">
     <div class="brand">历史上的今天</div>
+    <div class="section-tabs glass">
+      <button class="tab-btn active" data-view="history" aria-label="历史上的今天">历史</button>
+      <button class="tab-btn" data-view="news" aria-label="国际新闻">新闻</button>
+    </div>
     <div class="date-controls">
       <button id="prev-date" aria-label="前一天">‹</button>
       <span id="current-date">载入中…</span>
@@ -26,7 +30,7 @@
 
   <div class="holidays-bar glass" id="holidays-bar" aria-label="当日节日"></div>
 
-  <main id="app" tabindex="0" aria-label="事件列表"></main>
+  <main id="app" tabindex="0" aria-label="内容区域"></main>
 
   <div class="scroll-hint" id="scroll-hint">
     <span>滑动或按方向键浏览</span>

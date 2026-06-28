@@ -192,4 +192,4 @@ function renderEvents(events, container) {
   preloadNextImages(events, 0, 3);
 }
 
-export { renderEvents, getCategoryImage, getCategoryGradient, preloadNextImages };
+export { renderEvents, getCategoryImage, getCategoryGradient, preloadNextImages, loadImageWithFallbacks };
