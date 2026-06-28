@@ -12,6 +12,7 @@ const holidaysBar = document.getElementById('holidays-bar');
 const scrollHint = document.getElementById('scroll-hint');
 const tabBtns = document.querySelectorAll('.tab-btn');
 const tabsContainer = document.querySelector('.section-tabs');
+const brand = document.querySelector('.brand');
 const dateControls = document.querySelector('.date-controls');
 const datePicker = document.getElementById('date-picker');
 const todayBtn = document.getElementById('today-btn');
@@ -90,16 +91,17 @@ function switchView(view) {
   }
 
   if (view === 'history') {
+    if (brand) brand.textContent = '历史上的今天';
     dateControls.style.display = '';
     loadDate(currentDate);
     if (scrollHint) scrollHint.classList.remove('hidden');
   } else {
+    if (brand) brand.textContent = '国际新闻';
     dateControls.style.display = 'none';
     holidaysBar.classList.remove('visible');
     app.innerHTML = '';
     renderNews(app);
     if (scrollHint) scrollHint.classList.add('hidden');
-    // 隐藏滚动提示的滚动监听重置
   }
 }
 
