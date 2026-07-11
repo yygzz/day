@@ -1,0 +1,2006 @@
+{
+  "updated_at": "2026-07-11T00:03:48.484900+00:00",
+  "total": 200,
+  "news": [
+    {
+      "id": "ee9c80e0870ab17d5919dbbee8a4deda",
+      "title": "7/10: The Takeout with Major Garrett",
+      "url": "https://www.cbsnews.com/video/071026-the-takeout-with-major-garrett/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "President Trump says U.S. continuing Iran talks, but ceasefire is \"over\"; Graham Platner officially withdraws from Maine Senate race.",
+      "published_at": "2026-07-11T00:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692083+00:00"
+    },
+    {
+      "id": "182140092be066732d5bb4a5a68ae15b",
+      "title": "White House official says it wants Iran to publicly acknowledge \"that they screwed up\"",
+      "url": "https://www.cbsnews.com/video/white-house-official-says-wants-iran-publicly-acknowledge-screwed-up/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The Trump administration said there is still a chance to get nuclear talks back on track with Iran, but only if Tehran publicly states that the Strait of Hormuz is open and that it will no longer shoot at ships. Nancy Cordes reports.",
+      "published_at": "2026-07-10T23:53:56+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692119+00:00"
+    },
+    {
+      "id": "c2cb0cfaaa75a7234ccf6ed7972f71b1",
+      "title": "Several killed in small plane crash in the Bahamas, officials say",
+      "url": "https://www.cbsnews.com/news/small-plane-crash-bahamas-fatalities/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "A small plane crashed in the Bahamas on Friday, killing several people and prompting the government to temporarily ground Flamingo Air flights.",
+      "published_at": "2026-07-10T23:52:12+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692142+00:00"
+    },
+    {
+      "id": "523bc4083e312ce158190a7a374e0018",
+      "title": "Pentagon releases new set of UFO files: \"Unlike anything I had seen\"",
+      "url": "https://www.cbsnews.com/news/ufo-files-4th-release-pentagon/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The U.S. military released a new batch of files related to UFOs, including one report from a Navy pilot who said a mysterious object was \"unlike anything I had seen\" in 28 years of service.",
+      "published_at": "2026-07-10T23:08:41+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209786+00:00"
+    },
+    {
+      "id": "48a341086e176e3cac654eeaea17cbcd",
+      "title": "Iran admits to Trump advisers \"they made a mistake\" in shooting at ships in strait",
+      "url": "https://www.cbsnews.com/news/iran-privately-said-made-a-mistake-in-shooting-at-ships-in-strait-of-hormuz/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The White House wants Iran to publicly acknowledge that shooting at the ships was a mistake.",
+      "published_at": "2026-07-10T23:04:23+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692163+00:00"
+    },
+    {
+      "id": "411fd013fc4653ba9c36594e2f300f99",
+      "title": "Mikel Merino stars again as Spain edges Belgium 2-1 in the World Cup quarterfinals",
+      "url": "https://abcnews.com/Sports/wireStory/belgiums-charles-de-ketelaere-ends-spains-world-cup-134661490",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Mikel Merino scored in the 88th minute on a rebound yielded by backup Belgium goalkeeper Senne Lammens, and Spain advanced to the World Cup semifinals with a 2-1 victory",
+      "published_at": "2026-07-10T22:43:22+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768461+00:00"
+    },
+    {
+      "id": "32f379eab0805c9300d8c34c82d27d2b",
+      "title": "Trump admin. to back tariffs on Russian oil in effort to end Ukraine war, sources say",
+      "url": "https://www.cbsnews.com/news/trump-admin-to-support-heavy-tariffs-on-russian-oil-in-effort-to-end-ukraine-war/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The war in Ukraine is now in its fifth year. A bipartisan bill would impose heavy financial penalties on purchasers of Russian oil,",
+      "published_at": "2026-07-10T22:36:19+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692186+00:00"
+    },
+    {
+      "id": "6dfa78411f55558713f1aeed5c853d33",
+      "title": "WATCH: McDonalds teams up with BTS again",
+      "url": "https://abcnews.com/video/134664320/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "ABC News' Rocsi Diaz discusses what's trending on your feeds, including BTS' BT21 Happy Meal, Future's new album and new developments in NFL wide receiver Stefon Diggs' legal fight.",
+      "published_at": "2026-07-10T22:13:32+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768591+00:00"
+    },
+    {
+      "id": "b1a59ef9e950cffe12c1a2994398bb66",
+      "title": "Graham Platner formally drops out of Maine Senate race",
+      "url": "https://www.cbsnews.com/news/graham-platner-exits-maine-senate-race/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Graham Platner had until 5 p.m. on Monday to formally suspend his campaign or he would remain on the ballot in November.",
+      "published_at": "2026-07-10T21:53:33+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209853+00:00"
+    },
+    {
+      "id": "06dde873ae9124f69f2088a96bafe2ae",
+      "title": "Nicaragua strips lawyers from practicing in ongoing crackdown on dissent",
+      "url": "https://abcnews.com/International/wireStory/nicaragua-strips-lawyers-practicing-ongoing-crackdown-dissent-134663781",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Nicaragua's government has stripped many lawyers of their licenses to practice, according to a United Nations expert",
+      "published_at": "2026-07-10T21:25:04+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648657+00:00"
+    },
+    {
+      "id": "a65b8dfc30d7ec56529a1dd1a875de3c",
+      "title": "Graham Platner makes it official in Maine, submitting paperwork to leave Senate race",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5888709/graham-platner-maine-senate-susan-collins",
+      "source": "NPR",
+      "category": "News",
+      "summary": "In his withdrawal notice, Platner said \"people are desperate for change\" and that's why they made him the Democratic nominee. Now, Maine Democrats have to pick someone to replace him by July 27.",
+      "published_at": "2026-07-10T21:22:01+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115773+00:00"
+    },
+    {
+      "id": "014c9653865b26038892d7dd71473e26",
+      "title": "The 2026 FIFA World Cup schedule and how to watch",
+      "url": "https://www.cbsnews.com/news/world-cup-2026-schedule-how-to-watch/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "With 104 World Cup games being played in the U.S., Canada and Mexico, it's like \"a Super Bowl every single day for five weeks,\" U.S. team captain Tim Ream told CBS News.",
+      "published_at": "2026-07-10T21:13:23+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692209+00:00"
+    },
+    {
+      "id": "ba4c703c06a8800cd19c9d6ed1bd4795",
+      "title": "Trump again says Iran ceasefire is over, but U.S. will keep talking",
+      "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-talks-strait-of-hormuz/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Efforts are underway to get U.S.-Iran peace talks back on track after the most intense exchange of attacks since the ceasefire took effect.",
+      "published_at": "2026-07-10T21:10:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692231+00:00"
+    },
+    {
+      "id": "a7fb817ab2fa574d819acbd2faf69465",
+      "title": "Hegseth again intervenes in disciplinary action taken for Apache helicopter flyover",
+      "url": "https://abcnews.com/Politics/hegseth-intervenes-disciplinary-action-apache-helicopter-flyover/story?id=134655375",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Secretary of Defense Pete Hegseth publicly called for the suspension reversal.",
+      "published_at": "2026-07-10T20:57:49+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768847+00:00"
+    },
+    {
+      "id": "0f4fcbfaa598a8ad7ede7908c7f6df6f",
+      "title": "Prince Archie, Princess Lilibet reunite with King Charles in UK",
+      "url": "https://abcnews.com/GMA/Culture/king-charles-iii-queen-camilla-meet-prince-harry/story?id=134657471",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "The reunion at Highgrove House is the family's first known meeting since 2022.",
+      "published_at": "2026-07-10T20:50:47+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768514+00:00"
+    },
+    {
+      "id": "39030d0ebb0a0bcc7bafbd058e3f74b4",
+      "title": "Former Afghan general charged with drug and firearm offenses in U.S.",
+      "url": "https://www.cbsnews.com/news/afghan-general-charged-us-abdul-zahir-qadeer/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "A former member of Afghanistan's National Assembly was arrested and charged with conspiring to illegally import heroin and methamphetamine into the U.S.",
+      "published_at": "2026-07-10T20:38:41+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209876+00:00"
+    },
+    {
+      "id": "46da788535469fb7cd93ce5bf3c315cf",
+      "title": "Small plane crashes in the Bahamas, killing several people. Officials report one survivor",
+      "url": "https://abcnews.com/International/wireStory/small-plane-crashes-bahamas-killing-people-officials-report-134661400",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "A small plane carrying several people has crashed in the Bahamas, prompting the government to temporarily ground Flamingo Air flights",
+      "published_at": "2026-07-10T20:35:21+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648777+00:00"
+    },
+    {
+      "id": "5fc8e6247c52cb867f81316068fd6ede",
+      "title": "Charlie Kirk's family cites \"overwhelming evidence\" against alleged killer",
+      "url": "https://www.cbsnews.com/news/charlie-kirk-tyler-robinson-preliminary-hearing-family-statement/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Charlie Kirk's family said the end of Tyler Robinson's preliminary hearing \"marks an important step forward in the pursuit of justice.\"",
+      "published_at": "2026-07-10T20:08:14+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209897+00:00"
+    },
+    {
+      "id": "2958bd46f31880f081a892ef57677c64",
+      "title": "Patriotic art gets the spotlight as NEA funding shifts. Cue 'The Ronald Reagan Overture'",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5870578/ronald-reagan-250th-patriotic-art",
+      "source": "NPR",
+      "category": "News",
+      "summary": "Patriotic art and music is taking center stage this year under the Trump Administration, as funds shift away from DEI. For some orgs, like the Reagan Presidential Library, this is their wheelhouse.",
+      "published_at": "2026-07-10T20:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115810+00:00"
+    },
+    {
+      "id": "7f1cee268bd27f1b8c522633927b123f",
+      "title": "Man partially sucked out of plane window during flight, passenger says",
+      "url": "https://www.cbsnews.com/news/man-sucked-out-ryanair-plane-window-greece-flight-witness-says/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "A woman says she saw a fellow passenger on her Ryanair flight get his head and shoulders sucked out of a window that broke during their trip between Greece and Germany.",
+      "published_at": "2026-07-10T19:34:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692255+00:00"
+    },
+    {
+      "id": "6dde23d57abd8c4a30d607e1995f9274",
+      "title": "WATCH: Maine Democrats work to replace Platner as Senate nominee",
+      "url": "https://abcnews.com/video/134644578/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Progressive Change Campaign Committee co-founder Adam Green discusses the state of the race, which has been rocked by sexual assault allegations against Graham Platner.",
+      "published_at": "2026-07-10T19:08:58+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768998+00:00"
+    },
+    {
+      "id": "4d4b9d7272afc66ec297f4d34e78a154",
+      "title": "Houston neighbors started seeing more ICE agents around. Then came a fatal shooting.",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5886481/houston-neighbors-started-seeing-more-ice-agents-around-then-came-a-fatal-shooting",
+      "source": "NPR",
+      "category": "News",
+      "summary": "Lorenzo Salgado Araujo was a 52-year-old Mexican national who worked in construction for more than three decades. The father of three was shot by Immigration and Customs Enforcement agents after they attempted to pull him over.",
+      "published_at": "2026-07-10T19:08:57+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115837+00:00"
+    },
+    {
+      "id": "cad24fb03659640994daab5ff18234ec",
+      "title": "WATCH: Harry Styles' 'As It Was' becomes Spotify’s 5th most-streamed song ever",
+      "url": "https://abcnews.com/video/134658610/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "ABC News’ Will Ganss shares the buzziest stories of the day in “GMA” Pop News.",
+      "published_at": "2026-07-10T19:05:23+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768569+00:00"
+    },
+    {
+      "id": "d407675f37e205bfc0c834824759959e",
+      "title": "White House considering plan to add permanent fencing on Pennsylvania Ave.",
+      "url": "https://www.cbsnews.com/news/white-house-considering-plan-to-add-fencing-nearby-to-bolster-security/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "In the plan under discussion, the Secret Service and the White House would be able to open and close sections of the fencing, sources said.",
+      "published_at": "2026-07-10T18:56:30+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209921+00:00"
+    },
+    {
+      "id": "3271682123db44d4d30ab09818204950",
+      "title": "Students abducted in May by Muslim militants in Nigeria are rescued, government says",
+      "url": "https://abcnews.com/International/wireStory/students-abducted-muslim-militants-nigeria-rescued-government-134658719",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "The government says a group of students abducted in May by Muslim militants in Nigeria's Oyo state have been rescued",
+      "published_at": "2026-07-10T18:48:51+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648423+00:00"
+    },
+    {
+      "id": "0f46c4969ad6cbbd1b8c674ce448ca28",
+      "title": "Prince Harry, Meghan visit King Charles after security controversy",
+      "url": "https://www.cbsnews.com/news/prince-harry-meghan-visit-king-charles-after-security-controversy/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Prince Harry and Meghan have a rocky relationship with the prince's father.",
+      "published_at": "2026-07-10T18:34:13+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692273+00:00"
+    },
+    {
+      "id": "c132ee01ce9307bf614dbe1c0da08aff",
+      "title": "Mali's military says it's broken a rebel blockade around a strategic northern base",
+      "url": "https://abcnews.com/International/wireStory/malis-military-broken-rebel-blockade-strategic-northern-base-134658395",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Mali&rsquo;s military says it has broken a rebel blockade around a strategic army base in the north as the junta battles a renewed offensive by separatists and al-Qaida-linked militants",
+      "published_at": "2026-07-10T18:32:21+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648401+00:00"
+    },
+    {
+      "id": "1071b2b8ce718be41f1a295ca7e6ba80",
+      "title": "Vance family to rent home in Virginia countryside",
+      "url": "https://www.cbsnews.com/news/vance-family-home-middleburg-virginia/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Sources familiar with the decision say the rental property would supplement — not replace — the official vice presidential residence at the Naval Observatory in Washington.",
+      "published_at": "2026-07-10T18:17:20+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209949+00:00"
+    },
+    {
+      "id": "892ae876380eb983524724475c8ead0c",
+      "title": "Crews draining the Lincoln Memorial Reflecting Pool again as part of troubled revamp",
+      "url": "https://abcnews.com/Politics/wireStory/crews-draining-lincoln-memorial-reflecting-pool-part-trumps-134656303",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Crews are draining the Lincoln Memorial's Reflecting Pool again as President Donald Trump's problem-plagued effort to renovate the site pushes past his initial July 4 deadline",
+      "published_at": "2026-07-10T17:37:44+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768870+00:00"
+    },
+    {
+      "id": "5488e38751b9d4e5f865c664f4b6ed4c",
+      "title": "Man, 26, arrested after former British politician found dead in her home",
+      "url": "https://www.cbsnews.com/news/murder-probe-ann-widdecombe-british-parliament-politician/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Ann Widdecombe, a former member of Parliament, had \"sustained serious injuries\" when she was found dead in her home in southwest England, police said.",
+      "published_at": "2026-07-10T17:33:22+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692295+00:00"
+    },
+    {
+      "id": "7d3142f97d9419c12e5b7f6eff22e1cc",
+      "title": "Solar-powered tricycles help Cubans navigate fuel shortages and blackouts",
+      "url": "https://abcnews.com/International/wireStory/solar-powered-tricycles-cubans-navigate-fuel-shortages-blackouts-134655614",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Cuba's vintage cars have largely vanished, but they are now being replaced by small electric tricycles",
+      "published_at": "2026-07-10T17:24:40+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648498+00:00"
+    },
+    {
+      "id": "2fbcc5937bb147dadd907301d191af54",
+      "title": "WATCH: Pentagon releases 4th batch of UFO files",
+      "url": "https://abcnews.com/video/134653183/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "ABC News' Luis Martinez reports on the latest release from the Pentagon.",
+      "published_at": "2026-07-10T17:23:06+00:00",
+      "fetched_at": "2026-07-11T00:03:33.769016+00:00"
+    },
+    {
+      "id": "2a5e0fcf0e1c2ee24bfde3bbb7903c6c",
+      "title": "Scaled-back Alibaba settlement reflects DOJ's approach to food and drug cases",
+      "url": "https://www.cbsnews.com/news/alibaba-probe-dangerous-drugs-sold-to-u-s-consumers-doj-no-prosecution/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The scaled-backed Alibaba settlement reflects a broader trend by the DOJ of pulling back on criminal enforcement of corporate cases involving the safety of food, drugs, and medical devices.",
+      "published_at": "2026-07-10T17:20:40+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209973+00:00"
+    },
+    {
+      "id": "402cd1babdb9c3526ca530fcf1d7d12c",
+      "title": "Trump not expected to veto housing bill, U.S. official says",
+      "url": "https://www.cbsnews.com/news/trump-wont-sign-housing-bill-will-become-law-soon-without-veto/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "President Trump said Friday he won't sign the law, but a U.S. official said he isn't expected to veto it either.",
+      "published_at": "2026-07-10T17:19:17+00:00",
+      "fetched_at": "2026-07-11T00:03:35.209993+00:00"
+    },
+    {
+      "id": "363e0074a33956482eecfaa4c26fceb3",
+      "title": "Bear attacks woman outside her Alaska house",
+      "url": "https://abcnews.com/US/alaska-woman-hospitalized-after-attacked-bear-home/story?id=134649060",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "A woman was rushed to a hospital Thursday after she was attacked by a bear on the deck of her Alaskan house just as she was getting out with her dogs, investigators said.",
+      "published_at": "2026-07-10T16:41:29+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768541+00:00"
+    },
+    {
+      "id": "49e7645d9d5808c899b4cf60bf676825",
+      "title": "Appeals court temporarily blocks DOJ release of Biden tapes with biographer",
+      "url": "https://www.cbsnews.com/news/justice-department-biden-transcripts-recordings-biographer/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "An appeals court blocked the Justice Department from disclosing transcripts and recordings of former President Joe Biden's discussions with his biographer for 10 days.",
+      "published_at": "2026-07-10T16:33:41+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210015+00:00"
+    },
+    {
+      "id": "856fb10b046f663fc043be8e25ba21ee",
+      "title": "WATCH: Dwayne Johnson talks new live-action 'Moana'",
+      "url": "https://abcnews.com/video/134646337/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Johnson joins fellow stars Auli'i Cravalho and Catherine Laga'aia to take viewers behind the scenes of the live-action adaptation of the classic animated film.",
+      "published_at": "2026-07-10T16:22:19+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768612+00:00"
+    },
+    {
+      "id": "3d4974af39352090b61fa4cc43b3c102",
+      "title": "At least 12 killed by wildfire in southern Spain",
+      "url": "https://www.cbsnews.com/news/spain-wildfire-multiple-deaths-majority-foreigners/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The cause of the blaze hasn't been determined, but Spain has been among the many European nations hit by severe heat waves, with temperatures peaking at almost 106 in the country's south.",
+      "published_at": "2026-07-10T16:06:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692318+00:00"
+    },
+    {
+      "id": "26c1641b6e4e1efaf0d7bba09430046c",
+      "title": "Murder probe launched into suspicious death of former British minister",
+      "url": "https://abcnews.com/International/wireStory/murder-probe-launched-suspicious-death-former-british-minister-134652931",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Police have launched a murder investigation into the death of Ann Widdecombe, a former member of Parliament",
+      "published_at": "2026-07-10T15:34:20+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648755+00:00"
+    },
+    {
+      "id": "de41fc493dc81f3b8779a45f913ddaaf",
+      "title": "Smithsonian boss pushes back on scathing White House report in letter to staff",
+      "url": "https://abcnews.com/Politics/smithsonian-chief-disputes-scathing-white-house-report-accusing/story?id=134628251",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Smithsonian Secretary Lonnie Bunch disputed the scathing White House report, which accused the American history museum of presenting a \"radical view\" of American history.",
+      "published_at": "2026-07-10T15:24:28+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768894+00:00"
+    },
+    {
+      "id": "bf800c1d6cb504efef7e172cc5cd0c94",
+      "title": "A major housing bill is set to become law at midnight — even though Trump says he won't sign",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5885027/housing-bill-without-trump-signature",
+      "source": "NPR",
+      "category": "News",
+      "summary": "President Trump says he is refusing to sign the bill without Congress first passing his sweeping voter ID bill.",
+      "published_at": "2026-07-10T14:55:21+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115867+00:00"
+    },
+    {
+      "id": "8aa55c672c3578a0d8f4386204553e7c",
+      "title": "Questions arise over new Air Force One after Trump uses old plane",
+      "url": "https://www.cbsnews.com/news/air-force-one-trump-turkey-secret-service/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The Secret Service advised that President Trump take the old plane to depart Turkey, according to people briefed on the situation.",
+      "published_at": "2026-07-10T14:51:17+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210036+00:00"
+    },
+    {
+      "id": "9e2545b7e73da495e06ad4b4c81a7cc5",
+      "title": "Pakistani forces say they killed 75 insurgents after attacks in Balochistan",
+      "url": "https://abcnews.com/International/wireStory/pakistani-forces-killed-75-insurgents-after-attacks-balochistan-134651432",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Pakistani security forces have killed 75 insurgents in operations against a separatist group in Balochistan",
+      "published_at": "2026-07-10T14:48:46+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648595+00:00"
+    },
+    {
+      "id": "f5f363ad69e938d071301f45171c3507",
+      "title": "Mexico seeks prosecutions over deaths in U.S. after fatal ICE shooting",
+      "url": "https://www.cbsnews.com/news/mexico-wants-prosecutions-deaths-mexicans-us-ice-shooting-houston/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Mexico's government has sharply criticized the treatment of its citizens under President Trump's push to increase deportations.",
+      "published_at": "2026-07-10T14:48:04+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692339+00:00"
+    },
+    {
+      "id": "dc2b03e2627528be4b794b9a2467d6d6",
+      "title": "Hegseth frustrated with lack of adherence to grooming rules",
+      "url": "https://www.cbsnews.com/news/pentagon-grooming-standards-for-troops-beards/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Eight months ago, Hegseth told top military leaders there would be \"no more beardos\" and \"fat troops.\"",
+      "published_at": "2026-07-10T14:36:45+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210056+00:00"
+    },
+    {
+      "id": "13859364ed129c01c02ce9f08866ded0",
+      "title": "Shoe factory fire in China kills dozens of workers",
+      "url": "https://www.cbsnews.com/video/shoe-factory-fire-in-china-kills-dozens-of-workers/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Flames engulfed a five-story shoe factory in Jinjiang in southern China, killing at least 28 people. The factory's owners and manager have been arrested. Anna Coren reports.",
+      "published_at": "2026-07-10T14:28:44+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692361+00:00"
+    },
+    {
+      "id": "c94f89b2049da3d0161f7ef8eb25d68b",
+      "title": "Apache pilots' suspensions lifted after flyby over South Carolina beach",
+      "url": "https://www.cbsnews.com/news/south-carolina-beach-flyby-national-guard-suspensions-lifted/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The decision to suspend the pilots quickly led to backlash online and drew the attention of Defense Secretary Pete Hegseth.",
+      "published_at": "2026-07-10T14:22:45+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210078+00:00"
+    },
+    {
+      "id": "bd39d5ac848c6220c049de820a10388c",
+      "title": "Breaking down Erling Haaland's 6,000-calorie daily Viking-like diet to stay World Cup ready",
+      "url": "https://www.cbsnews.com/video/breaking-down-erling-haalands-6000-calorie-daily-viking-diet-to-stay-world-cup-ready/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Norwegian soccer star Erling Haaland eats a massive 6,000-calorie daily diet that includes raw milk and bone marrow to stay fit. Leigh Kiniry took a stab at the World Cup breakout star's diet for a day.",
+      "published_at": "2026-07-10T14:21:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692385+00:00"
+    },
+    {
+      "id": "b213a7a98b8f6556aba507d68cb1118d",
+      "title": "Greek police arrest 2 people over 2010 fatal arson attack on Athens bank",
+      "url": "https://abcnews.com/International/wireStory/greek-police-arrest-2-people-2010-fatal-arson-134649865",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Greek police have arrested two people in connection with the deaths in 2010 of three people trapped in a bank that was firebombed during a violent protest in Athens",
+      "published_at": "2026-07-10T14:18:08+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648476+00:00"
+    },
+    {
+      "id": "1fa11798751cb502ca9267e49f8e18dc",
+      "title": "12 die in wildfire in Spain amid soaring temperatures",
+      "url": "https://abcnews.com/International/wireStory/12-die-wildfire-spain-amid-soaring-temperatures-134641592",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "One of Spain's deadliest wildfires has killed 12 people, authorities report, as soaring temperatures grip the country",
+      "published_at": "2026-07-10T13:51:43+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648841+00:00"
+    },
+    {
+      "id": "0459e0261f0dc47b016d073d7455912f",
+      "title": "Lynette Hooker may have returned to sailboat before going missing in the Bahamas, source says",
+      "url": "https://www.cbsnews.com/video/lynette-hooker-may-have-returned-sailboat-going-missing-in-bahamas-source/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Coast Guard investigators are looking into the disappearance of Lynette Hooker, 55, who went missing in the Bahamas. While Hooker's husband claims she fell from a dinghy, a source close to the family tells CBS News that Hooker may have returned to the couple's sailboat before she vanished. Cristian ",
+      "published_at": "2026-07-10T13:47:01+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692415+00:00"
+    },
+    {
+      "id": "384444c4c0a0c0b4479ed36f4095eada",
+      "title": "Experts say Trump's plan to license Patriot missiles for Ukraine could take years",
+      "url": "https://abcnews.com/Politics/experts-trumps-plan-license-patriot-missiles-ukraine-years/story?id=134623702",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "&quot;These things aren't like flipping on a&nbsp;light switch,&quot; one expert told ABC News.",
+      "published_at": "2026-07-10T13:13:24+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768935+00:00"
+    },
+    {
+      "id": "d6639b75b202a59a3694c6af2e9f1376",
+      "title": "Israel told U.S. of Iranian plot to assassinate Trump, new report says",
+      "url": "https://www.cbsnews.com/video/israel-told-us-of-iranian-plot-to-assassinate-trump-new-report-says/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The conflict between the U.S. and Iran is intensifying as the two trade missile strikes. Meanwhile, Israel warned the U.S. of an Iranian assassination plot against President Trump, according to new reporting from The Wall Street Journal. Charlie D'Agata has more.",
+      "published_at": "2026-07-10T13:05:44+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692440+00:00"
+    },
+    {
+      "id": "88ecbfd3faf9c1ed8915b434617821ad",
+      "title": "American-made technology guiding Ukraine's strikes into Russia",
+      "url": "https://www.cbsnews.com/news/american-made-technology-guiding-ukraines-strikes-into-russia/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The American defense firm Shield AI has played an increasingly important role in Ukraine's campaign of strikes in Russia.",
+      "published_at": "2026-07-10T12:15:54+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692460+00:00"
+    },
+    {
+      "id": "652d406984d5d902daf2887e87d3b77d",
+      "title": "At least 1 million women have lost access to aid after funding cuts, UN says",
+      "url": "https://abcnews.com/International/wireStory/1-million-women-lost-access-aid-after-funding-134643131",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "The U.N. women's agency says at least 1 million have lost access to access to humanitarian aid and other critical support as a result of budget cuts over the last 18 months",
+      "published_at": "2026-07-10T12:03:38+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648575+00:00"
+    },
+    {
+      "id": "637b733bc42c2261d0b8c8f5f5b665c5",
+      "title": "Trump's proposed arch gets preliminary approval from key agency",
+      "url": "https://abcnews.com/Politics/trumps-proposed-arch-gets-preliminary-approval-key-agency/story?id=134633167",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Trump's proposed 250-foot triumphal arch received initial approval from the National Capital Planning Commission after hours of public testimony against the project.",
+      "published_at": "2026-07-10T12:00:58+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768916+00:00"
+    },
+    {
+      "id": "6ecbc33caddd7240174e1c03f8b105d5",
+      "title": "U.S.-Iran fighting appears to pause. And, life inside Israel's military zones in Gaza",
+      "url": "https://www.npr.org/2026/07/10/g-s1-132943/up-first-newsletter-iran-us-tps-haitians-syrians-eac-gaza-israel-hamas",
+      "source": "NPR",
+      "category": "World",
+      "summary": "Fighting between the U.S. and Iran appears to have paused after two days of clashing amid a shaky ceasefire. And, a look at what life is like inside Israel's expanding zone of control in Gaza.",
+      "published_at": "2026-07-10T11:43:38+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362742+00:00"
+    },
+    {
+      "id": "593f60e03ba2903fd79fff66dd560992",
+      "title": "WATCH: Humanoid robots perform surgery",
+      "url": "https://abcnews.com/video/134643679/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "For the first time, surgeons at UC San Diego have operated using humanoid robots, removing gallbladders in two procedures on pigs, a key step before any human trials.",
+      "published_at": "2026-07-10T11:29:50+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768635+00:00"
+    },
+    {
+      "id": "593ac5cdd8b0339c34a3ad155f24bbb6",
+      "title": "Taliban declares war on smartphones",
+      "url": "https://www.npr.org/2026/07/10/g-s1-132396/smartphones-taliban-afghanistan-ban",
+      "source": "NPR",
+      "category": "News",
+      "summary": "A newly announced ban on smartphones for government workers, police and military personnel is spilling over into healthcare and educational facilities. Ordinary citizens worry they'll be next.",
+      "published_at": "2026-07-10T11:12:39+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115915+00:00"
+    },
+    {
+      "id": "df2a7af906e900fee1741b807afa1395",
+      "title": "Schiff launches inquiry into DOJ's closure of baby formula probe",
+      "url": "https://www.cbsnews.com/news/doj-abbott-labs-adam-schiff/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Sen. Schiff is launching a congressional inquiry into why the DOJ shuttered a criminal probe into Cronobacter bacterial contamination at an Abbott Laboratories plant that made baby formula.",
+      "published_at": "2026-07-10T10:59:11+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210100+00:00"
+    },
+    {
+      "id": "e0b47523016f8c1ca892408de1e57d48",
+      "title": "WATCH: California man fights off charging bear near Lake Tahoe",
+      "url": "https://abcnews.com/video/134635822/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Harrowing video captured the moment a bear charged at a man outside of his vacation home. Thanks to quick thinking and advance planning, he was able to grab bear spray and fend off the animal.",
+      "published_at": "2026-07-10T10:45:49+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768660+00:00"
+    },
+    {
+      "id": "ff34a5298eaa5a490832499170d4bbfc",
+      "title": "EasyJet accepts takeover offer from Apollo, over Castlerock's bid",
+      "url": "https://www.cbsnews.com/news/easyjet-takeover-offer-apollo-bidding-war-castlerock/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "British budget airline EasyJet says it's reached an agreement in principle for a £5.7-billion ($7.7-billion) takeover by U.S. private equity firm Apollo, topping a rival offer from fellow American private equity investor Castlelake​.",
+      "published_at": "2026-07-10T10:23:55+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692490+00:00"
+    },
+    {
+      "id": "ac815949e92d5ef49a4ef2ef16faa574",
+      "title": "Devastation, agony and hope: What we saw in Venezuela after the earthquakes",
+      "url": "https://www.cbsnews.com/news/venezuela-earthquakes-devastation-agony-hope-la-guaira/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The earthquakes that rocked Venezuela last month led to catastrophic damage in the port city of La Guaira — killing thousands and forcing rescuers to scour the rubble for missing people. Here's what we saw.",
+      "published_at": "2026-07-10T10:00:10+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692529+00:00"
+    },
+    {
+      "id": "34ed6430bb4ed17b123605d01cf6903e",
+      "title": "Count Binface: The intergalactic warrior who could upend Britain's strangest election",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5887550/count-binface-the-intergalactic-warrior-who-could-upend-britains-strangest-election",
+      "source": "NPR",
+      "category": "World",
+      "summary": "Meet Count Binface: the challenger from another planet taking on Nigel Farage as questions over the Reform UK leader's finances overshadow his election comeback.",
+      "published_at": "2026-07-10T09:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362785+00:00"
+    },
+    {
+      "id": "01692c44b4f9d4792e86c38c66fdb72c",
+      "title": "9 months into a ceasefire, Israel now controls nearly 70% of Gaza",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5887357/israel-gaza-war-trump-ceasefire-military-control",
+      "source": "NPR",
+      "category": "World",
+      "summary": "When the U.S. brokered a ceasefire last year, Israel controlled half of Gaza. Now Israeli forces have pushed deeper, and Palestinians are paying a deadly price.",
+      "published_at": "2026-07-10T09:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362811+00:00"
+    },
+    {
+      "id": "24c3609c379e355ba93a4f4d5ac39825",
+      "title": "Waymo called the cops on teen riders, raising privacy concerns",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5886113/waymo-police-privacy-driverless-autonomous-vehicles",
+      "source": "NPR",
+      "category": "News",
+      "summary": "Two 15-year-olds were allegedly drinking alcohol and shooting toy guns from a driverless taxi when the company disabled it and alerted police.",
+      "published_at": "2026-07-10T09:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115940+00:00"
+    },
+    {
+      "id": "331deca1159581a74b04943c24138f4d",
+      "title": "One U.S. visa program is growing rapidly. No one is happy with it",
+      "url": "https://www.npr.org/2026/07/10/g-s1-132915/congress-agriculture-h2a-visa-program",
+      "source": "NPR",
+      "category": "News",
+      "summary": "Republicans on Capitol Hill are starting to talk about one facet of immigration reform: how to expand the popular H-2A visa program for farm laborers. They face obstacles.",
+      "published_at": "2026-07-10T09:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:31.115985+00:00"
+    },
+    {
+      "id": "b2924f1520ffda03eb51ab9c140319ee",
+      "title": "One of Spain's deadliest wildfires kills at least 12 people, with 23 others missing",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5888160/southern-spain-wildfire-almeria",
+      "source": "NPR",
+      "category": "World",
+      "summary": "Several victims of the fire in the southern province of Almeria, a popular holiday destination, were found inside burnt-out vehicles and were thought to have died while trying to flee the flames.",
+      "published_at": "2026-07-10T08:53:37+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362837+00:00"
+    },
+    {
+      "id": "5e5e908ddc6828c02c949af6a12be02c",
+      "title": "Chronic illness surges in quake-hit Venezuela as humanitarian crisis builds",
+      "url": "https://abcnews.com/International/wireStory/chronic-illness-diarrhea-surge-quake-hit-venezuelan-communities-134632772",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Victims of last month's powerful earthquakes in Venezuela are flooding relief services",
+      "published_at": "2026-07-10T06:46:41+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648637+00:00"
+    },
+    {
+      "id": "4ae4126af36b645f9b224dae2998ff6a",
+      "title": "Syria says it arrested IS-linked suspects behind the Damascus bombings",
+      "url": "https://abcnews.com/International/wireStory/syria-arrested-linked-suspects-damascus-bombings-macrons-visit-134632898",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Syrian authorities have arrested several suspects linked to recent explosions in Damascus, including bombings during French President Emmanuel Macron's visit",
+      "published_at": "2026-07-10T06:41:06+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648298+00:00"
+    },
+    {
+      "id": "e8548eb9306af665c016e82e78796cb2",
+      "title": "Ebola death toll reaches 600, as new cases suspected in other parts of Congo",
+      "url": "https://www.npr.org/2026/07/10/g-s1-132930/ebola-outbreak-congo",
+      "source": "NPR",
+      "category": "World",
+      "summary": "New suspected cases of Ebola have been reported in parts of Congo that were previously unaffected, the government said, signaling the continued spread of the disease beyond the epicenter in Ituri.",
+      "published_at": "2026-07-10T06:33:38+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362861+00:00"
+    },
+    {
+      "id": "8b181eeb8b93517d5e6141e7eb30a0db",
+      "title": "U.S. and Iran exchange intensifying fire across Mideast, threatening ceasefire deal",
+      "url": "https://www.npr.org/2026/07/10/g-s1-132927/us-iran-war",
+      "source": "NPR",
+      "category": "World",
+      "summary": "Back-and-forth attacks have repeatedly threatened the ceasefire, but Thursday's appeared bigger all around.",
+      "published_at": "2026-07-10T06:12:36+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362882+00:00"
+    },
+    {
+      "id": "e0a4e61c96b533a45c6ce88cfe228027",
+      "title": "Colombia's court on the conflict with FARC rebels in limbo as president-elect vows to dismantle it",
+      "url": "https://abcnews.com/International/wireStory/colombias-court-conflict-farc-rebels-limbo-president-elect-134631964",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "A decade after Colombia's peace accord with the rebel FARC group, the tribunal handling crimes related to the conflict faces uncertainty",
+      "published_at": "2026-07-10T06:08:28+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648618+00:00"
+    },
+    {
+      "id": "f5aa5cabf36e8a0f476d242723ce8404",
+      "title": "Iran and U.S. ramp up tit-for-tat strikes as Khamenei laid to rest",
+      "url": "https://www.cbsnews.com/live-updates/iran-us-war-trump-ceasefire-over-strait-of-hormuz-attacks/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Iran's former Supreme Leader Ali Khamenei was buried amid an escalating exchange of fire on the 132nd day of the war.",
+      "published_at": "2026-07-10T05:51:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692550+00:00"
+    },
+    {
+      "id": "67a2de521dd01bf12e9356f013cb065c",
+      "title": "Hong Kong eateries welcome dogs as city relaxes ban",
+      "url": "https://abcnews.com/International/wireStory/hong-kong-eateries-dogs-city-relaxes-ban-134640647",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Hong Kong has relaxed a decades-old rule, allowing dogs in over 900 approved restaurants",
+      "published_at": "2026-07-10T05:13:56+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648551+00:00"
+    },
+    {
+      "id": "6bb4547f4b153b34c25628a78acdaf81",
+      "title": "How Democrats could pick a new Maine Senate nominee to replace Graham Platner",
+      "url": "https://www.cbsnews.com/news/graham-platner-replacement-maine-democrats/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Maine Democrats are facing a ticking clock to find a new candidate to go up against GOP Sen. Susan Collins this fall, after Graham Platner dropped out of the race following a sexual assault allegation.",
+      "published_at": "2026-07-10T04:57:28+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210125+00:00"
+    },
+    {
+      "id": "6564ecf9b7b683ef443066ff4201694c",
+      "title": "Here's who's vying to replace Graham Platner as Maine Democratic Senate nominee",
+      "url": "https://www.cbsnews.com/news/maine-democrats-senate-candidates-replace-graham-platner/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Graham Platner's move to suspend his Senate campaign after a sexual assault allegation has prompted a mad dash in Maine, as Democrats position themselves as replacements to take on GOP Sen. Susan Collins.",
+      "published_at": "2026-07-10T04:25:52+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210149+00:00"
+    },
+    {
+      "id": "7447391e91de96d2f0d5d5921e0ec0e5",
+      "title": "Illinois assault weapons ban upheld by federal appeals court",
+      "url": "https://www.cbsnews.com/news/illinois-assault-weapons-ban-upheld-federal-appeals-court/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "A federal appeals court on Thursday upheld an Illinois ban on semiautomatic weapons, keeping in place a law passed largely in response to a deadly Independence Day parade shooting.",
+      "published_at": "2026-07-10T02:18:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210171+00:00"
+    },
+    {
+      "id": "91c4a6a5aeda7e99e888f97aa373a8f2",
+      "title": "A Florida airport is now named after Trump, with old airport code still used for now",
+      "url": "https://www.cbsnews.com/news/donald-j-trump-international-airport-new-letter-code-passenger-confusion/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Palm Beach International Airport officially became Donald J. Trump International Airport on Thursday, but the airport's code won't change for another 40 days.",
+      "published_at": "2026-07-10T00:51:10+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210193+00:00"
+    },
+    {
+      "id": "624472419cb1241328ca86ba5cbe4b5d",
+      "title": "Trump-promoted discount gas stations fuel a mystery and questions",
+      "url": "https://abcnews.com/US/trump-promoted-discount-gas-stations-fuel-mystery-questions/story?id=134625546",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "President Trump is promoting a network of gas stations that are selling gas for $3.47 a gallon, but analysts say they're likely selling the gas at a loss.",
+      "published_at": "2026-07-10T00:47:09+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768957+00:00"
+    },
+    {
+      "id": "ef4f391a29d27266bd40c100e68b3a06",
+      "title": "Trump's proposed arch needs structural revisions to earn final approval",
+      "url": "https://www.cbsnews.com/news/trump-arch-structural-revisions-national-planning-commission/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Washington, D.C., has height restrictions, and the National Planning Commission offered a solution to meet them for the 250-foot proposed arch.",
+      "published_at": "2026-07-10T00:40:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210238+00:00"
+    },
+    {
+      "id": "7c10cc75b180f5b757493f5ec1a5d9d0",
+      "title": "WATCH: Woman perched on Brooklyn Bridge beam rescued by elite NYPD team",
+      "url": "https://abcnews.com/video/134636407/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "After finding a woman sitting with her feet dangling over the bridge, officers spent nearly an hour talking her to safety. It's the same unit that arrested the Empire State Building climbers.",
+      "published_at": "2026-07-10T00:38:45+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768684+00:00"
+    },
+    {
+      "id": "f2db67485a2ec07dfb7bda89914dac28",
+      "title": "WATCH: Student pilot forced to land plane alone after instructor jumps to his death midair",
+      "url": "https://abcnews.com/video/134636515/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "According to a school official, the instructor's family says he saw a psychiatrist last week.",
+      "published_at": "2026-07-10T00:24:43+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768706+00:00"
+    },
+    {
+      "id": "eed29325018a0351a20e56cfde14f3d4",
+      "title": "Investigators dispute Brian Hooker's account of his wife's disappearance in the Bahamas",
+      "url": "https://www.cbsnews.com/video/investigators-dispute-brian-hookers-account-wifes-disappearance-bahamas/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "According to Lynette Hooker's family, the story her husband Brian has been telling about the night she went missing in the Bahamas is apparently not what investigators believe actually happened. Cristian Benavides has the update.",
+      "published_at": "2026-07-10T00:00:23+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692575+00:00"
+    },
+    {
+      "id": "f707da59e07478a14f9c81ae1fc0d8e3",
+      "title": "U.S. and Iran escalate strikes, nudging gas prices higher",
+      "url": "https://www.cbsnews.com/video/us-iran-escalate-strikes-nudging-gas-prices-higher/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The U.S. and Iran have begun the most intense fighting since President Trump struck a deal for talks three weeks ago. The U.S. hit around 90 targets in Iran overnight, and Iran responded with ballistic missiles and drones aimed at U.S. bases and military assets in the region. Nancy Cordes has more.",
+      "published_at": "2026-07-09T23:54:15+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692602+00:00"
+    },
+    {
+      "id": "8e65bcc9f78a2d1fe7fe5bf1f256eeef",
+      "title": "Maine Democrats navigating uncharted waters as Graham Platner says he will step down",
+      "url": "https://www.cbsnews.com/video/maine-democrats-navigating-uncharted-waters-graham-platner-says-step-down/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Maine is a key state in the Democratic Party's plan to win back the U.S. Senate. But that plan is in trouble as the state's Democrats are scrambling to replace nominee Graham Platner, who is not going quietly.",
+      "published_at": "2026-07-09T23:47:53+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210311+00:00"
+    },
+    {
+      "id": "dabd8ce73f0e56c86ffe058cd22a1827",
+      "title": "39 killed in southern China flooding after days of heavy rain",
+      "url": "https://www.cbsnews.com/news/southern-china-flooding-maysak-typhoon-bavi/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Authorities in southern China say 39 people have died in flooding after days of heavy rainfall from a tropical storm.",
+      "published_at": "2026-07-09T21:13:05+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692623+00:00"
+    },
+    {
+      "id": "1de4437b4e663aaa1306ef4dac030ff0",
+      "title": "Israeli strike kills aid worker who brought World Cup screenings to Gaza",
+      "url": "https://www.cbsnews.com/news/palestinian-aid-worker-gaza-killed-israel-strike-world-cup-screenings/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "An Israeli strike has killed an aid worker who organized World Cup game screenings for Palestinians in the war-torn Gaza Strip, a hospital director says.",
+      "published_at": "2026-07-09T21:03:02+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692645+00:00"
+    },
+    {
+      "id": "2ef004402d1121c5ec9e13d886f4cd9b",
+      "title": "7/9: The Takeout with Major Garrett",
+      "url": "https://www.cbsnews.com/video/070926-the-takeout-with-major-garrett/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Maine Democrats to hold nominating convention after Graham Platner exit; questions arise about new Air Force One plane from Qatar.",
+      "published_at": "2026-07-09T21:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692664+00:00"
+    },
+    {
+      "id": "bc045b5c98418f2ee9ecc1be4760fdc1",
+      "title": "Army to share findings of Kuwait attack probe with Gold Star families",
+      "url": "https://www.cbsnews.com/news/iran-strike-us-troops-kuwait-investigation-findings-families/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Six Americans were killed in the March 1 Iranian strike on a tactical operations center in Kuwait.",
+      "published_at": "2026-07-09T20:42:49+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692685+00:00"
+    },
+    {
+      "id": "f9d9e3c8465fb3051d53f72b1ce33a4a",
+      "title": "Former U.S. envoy reacts to Iran strikes and NATO summit",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5886129/former-u-s-envoy-reacts-to-iran-strikes-and-nato-summit",
+      "source": "NPR",
+      "category": "World",
+      "summary": "NPR's Scott Detrow speaks with former U.S. Ambassador to NATO Nicholas Burns regarding this week's developments in the U.S.-Iran conflict -- and the NATO summit this week.",
+      "published_at": "2026-07-09T20:02:31+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362914+00:00"
+    },
+    {
+      "id": "7413ad1875b112c35b49e2a05b67d58b",
+      "title": "Where are Iran and Ukraine wars headed after NATO summit?",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5886200/where-are-iran-and-ukraine-wars-headed-after-nato-summit",
+      "source": "NPR",
+      "category": "World",
+      "summary": "Fresh strikes between Iran and the United States and a tense ceasefire scrapped — Is the war with Iran back on?",
+      "published_at": "2026-07-09T20:01:45+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362939+00:00"
+    },
+    {
+      "id": "319456c1b0e02426084c379bab404ffa",
+      "title": "South Florida's Palm Beach airport renamed",
+      "url": "https://abcnews.com/Politics/wireStory/south-floridas-palm-beach-airport-renamed-president-donald-134626570",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "A South Florida airport has officially changed its name to the President Donald J",
+      "published_at": "2026-07-09T19:41:28+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768976+00:00"
+    },
+    {
+      "id": "ae4dcb3f35b3bbb76f88d50eea10d93b",
+      "title": "Technology is driving an increase in online threats to the UK, senior officials say",
+      "url": "https://abcnews.com/International/wireStory/technology-driving-increase-online-threats-uk-senior-officials-134628433",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Senior British policing officials say technology and online platforms are increasingly being exploited for threats to the United Kingdom",
+      "published_at": "2026-07-09T19:23:12+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648377+00:00"
+    },
+    {
+      "id": "4992df81a96e696a4e31cb903c2cab9b",
+      "title": "Orbán allies protest in Hungary against plans to oust President Tamás Sulyok",
+      "url": "https://abcnews.com/International/wireStory/orbn-allies-protest-hungary-plans-oust-president-tams-134626028",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Opponents of the Hungarian government's efforts to oust the president have gathered for a protest in Budapest at the urging of former Prime Minister Viktor Orb&aacute;n",
+      "published_at": "2026-07-09T18:43:15+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648452+00:00"
+    },
+    {
+      "id": "7331a5ec8ae341661a39e4661bb8268d",
+      "title": "U.S. star Christian Pulisic fractured leg in World Cup loss to Belgium",
+      "url": "https://www.cbsnews.com/news/christian-pulisic-injury-broken-leg-world-cup-loss-us-mens-team/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Christian Pulisic was diagnosed with a fractured right leg, the U.S. Soccer Federation announced Thursday.",
+      "published_at": "2026-07-09T17:26:12+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692704+00:00"
+    },
+    {
+      "id": "5f8d96c0584669d6392ded3d329e087c",
+      "title": "Fire at a shoe factory kills 28 in one of China's deadliest blazes in recent years",
+      "url": "https://abcnews.com/International/wireStory/fire-shoe-factory-kills-28-chinas-deadliest-blazes-134620508",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "A fire has broken out at a shoe factory in China's Fujian province, killing 28 people",
+      "published_at": "2026-07-09T16:50:03+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648354+00:00"
+    },
+    {
+      "id": "d6b6e2ecd243e46cb09022886eebe69a",
+      "title": "Judge orders Indian billionaire to answer questions on whether was quid pro quo",
+      "url": "https://www.cbsnews.com/news/gautam-adani-alleged-quid-pro-quo-justice-department-charges-dismissed-india-billionaire/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The Justice Department in May announced it had dismissed criminal foreign bribery and securities fraud charges against Gautam Adani, India's richest man.",
+      "published_at": "2026-07-09T14:08:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210353+00:00"
+    },
+    {
+      "id": "ff611629a691690d494cfeb5e6d3f5b2",
+      "title": "Germany reaches deal with US to buy long-range Tomahawk missiles, Merz says",
+      "url": "https://abcnews.com/International/wireStory/germany-reaches-deal-us-buy-long-range-tomahawk-134615916",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "German Chancellor Friedrich Merz has announced a deal with the United States to buy American-made Tomahawk cruise missiles and station them in Germany",
+      "published_at": "2026-07-09T13:40:40+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648863+00:00"
+    },
+    {
+      "id": "77d77afb1601f1a17a2b83b6c233b475",
+      "title": "WATCH: Disney brings ‘Toy Story 5’ to children’s hospitals",
+      "url": "https://abcnews.com/video/134612644/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Disney and Pixar teamed up with the Starlight Children’s Foundation to bring “Toy Story 5” to 300 children’s hospitals around the country.",
+      "published_at": "2026-07-09T13:38:02+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768731+00:00"
+    },
+    {
+      "id": "3563285617a5a1f4e64811b727446724",
+      "title": "Eswatini receives 11 people deported from the US as part of migration crackdown",
+      "url": "https://abcnews.com/International/wireStory/eswatini-receives-11-people-deported-us-part-migration-134614418",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Eswatini has accepted a fourth group of people deported from the United States under a bilateral agreement",
+      "published_at": "2026-07-09T13:09:35+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648819+00:00"
+    },
+    {
+      "id": "c23aba042d13bd30cb5c525426761c7a",
+      "title": "WATCH: Low-flying hot air balloon slams into car in East Texas",
+      "url": "https://abcnews.com/video/134601087/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "The images were captured by a mother who says she was on her way to book a hot air balloon ride with her son, but quickly changed their minds.",
+      "published_at": "2026-07-09T12:06:04+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768787+00:00"
+    },
+    {
+      "id": "ffcb91c611be085b47f2c10b86566358",
+      "title": "Graham Platner ends Senate bid. And, why Nolan Wells' death captured national attention",
+      "url": "https://www.npr.org/2026/07/09/g-s1-132694/up-first-newsletter-graham-platner-trump-iran-israel-nolan-wells",
+      "source": "NPR",
+      "category": "World",
+      "summary": "Democrat Graham Platner ended his bid last night for U.S. Senate. And, prominent civil rights attorney Ben Crump has been enlisted to help get answers in the July Fourth weekend death of Nolan Wells.",
+      "published_at": "2026-07-09T11:22:04+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362964+00:00"
+    },
+    {
+      "id": "56bc36a4ae7674a7ef91f58cd7863420",
+      "title": "WATCH: Hollywood history hits the auction block",
+      "url": "https://abcnews.com/video/134609589/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Some of the biggest items in film history, including Luke Skywalker's lightsaber and the Wicked Witch's hat from \"The Wizard of Oz,\" are up for sale through Heritage Auctions.",
+      "published_at": "2026-07-09T11:17:15+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768764+00:00"
+    },
+    {
+      "id": "6cb2074d1432a2f34b952f6c8d6a2354",
+      "title": "Pakistani rescuers battle rough seas on 2nd day of search for cargo plane crew",
+      "url": "https://abcnews.com/International/wireStory/pakistani-rescuers-battle-rough-seas-2nd-day-search-134608919",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Officials say Pakistan Navy search and rescue teams are battling rough seas as they try to find the five-member crew of a cargo plane that crashed into the Arabian Sea",
+      "published_at": "2026-07-09T10:07:11+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648332+00:00"
+    },
+    {
+      "id": "f8e22bf053918db01520d4df3bf1044d",
+      "title": "How England's class divide shaped Andy Burnham, the U.K.'s likely next prime minister",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5876065/andy-burnham-england-uk",
+      "source": "NPR",
+      "category": "World",
+      "summary": "As mayor of Manchester, Andy Burnham brought growth to the postindustrial city. Can he scale that nationally as the next prime minister?",
+      "published_at": "2026-07-09T09:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:30.362986+00:00"
+    },
+    {
+      "id": "0cd5bfbe5585e8060d44b2447f52421d",
+      "title": "Bangladesh relocates refugees after landslide kills at least 5 children",
+      "url": "https://abcnews.com/International/wireStory/bangladesh-relocates-refugees-after-landslide-kills-5-children-134608086",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Authorities in Rohingya refugee camps in Bangladesh are using loudspeakers and a network of volunteers and community leaders to relocate people from risky areas to safety",
+      "published_at": "2026-07-09T08:18:05+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648531+00:00"
+    },
+    {
+      "id": "a1fef5e8d83a43ecdfe4c0c18e2e233a",
+      "title": "Nominations open in the contest to be UK leader, Burnham likely the only candidate",
+      "url": "https://abcnews.com/International/wireStory/nominations-open-contest-uk-leader-andy-burnham-candidate-134608472",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Nominations are opening in a Labour Party election to replace Keir Starmer as Britain's prime minister",
+      "published_at": "2026-07-09T08:02:12+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648725+00:00"
+    },
+    {
+      "id": "fe43ae92eebde504b646ee858c02175b",
+      "title": "Australia agrees to sell uranium to India, ending a long stalemate",
+      "url": "https://abcnews.com/International/wireStory/australia-agrees-sell-uranium-india-ending-long-stalemate-134608473",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Australia has agreed to sell uranium to India for peaceful purposes",
+      "published_at": "2026-07-09T08:02:09+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648676+00:00"
+    },
+    {
+      "id": "a40dac659593cdfd83eacfc1f89b7423",
+      "title": "S. Korea's Supreme Court upholds prison sentence for Yoon in first martial law case",
+      "url": "https://abcnews.com/International/wireStory/south-koreas-supreme-court-upholds-prison-sentence-yoon-134608188",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "South Korea&rsquo;s Supreme Court has upheld a seven-year prison sentence for former President Yoon Suk Yeol in the first case to reach the country&rsquo;s highest court from the several criminal trials related to his brief imposition of martial law in 2024",
+      "published_at": "2026-07-09T07:22:01+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648704+00:00"
+    },
+    {
+      "id": "d4f20317a7524d4553bfa3cbff4b7ec5",
+      "title": "An Italian region defies US pressure to end a Cuban doctors program",
+      "url": "https://abcnews.com/International/wireStory/italian-region-defies-us-pressure-end-cuban-doctors-134607425",
+      "source": "ABC News",
+      "category": "World",
+      "summary": "Cuban doctors are working in hospitals in Italy's Calabria region under a long-running program despite U.S. efforts to end it",
+      "published_at": "2026-07-09T05:13:58+00:00",
+      "fetched_at": "2026-07-11T00:03:32.648798+00:00"
+    },
+    {
+      "id": "409802ce67fc9f092533d3b6bef87cd0",
+      "title": "WATCH: Starbucks says it'll pay its baristas to make TikToks",
+      "url": "https://abcnews.com/video/134596125/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "Starting this summer, the company says baristas can earn a direct cut of the ad revenue, as long as their videos are Starbucks approved. ABC News contributor Mike Muse discusses more.",
+      "published_at": "2026-07-08T22:18:23+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768810+00:00"
+    },
+    {
+      "id": "0bf7332e87aea3886f34b9a36c27df26",
+      "title": "LIVE: ABC News Live",
+      "url": "https://abcnews.com/video/41463246/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "24/7 coverage of breaking news and live events",
+      "published_at": "2026-07-08T16:53:03+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768484+00:00"
+    },
+    {
+      "id": "59520dc920e7c7b34283af5e7e8ce1de",
+      "title": "WATCH: Husky saves boy from bear",
+      "url": "https://abcnews.com/video/134577827/",
+      "source": "ABC News",
+      "category": "Top Stories",
+      "summary": "A family dog chased away a charging bear to protect a 6-year-old boy.",
+      "published_at": "2026-07-08T15:09:26+00:00",
+      "fetched_at": "2026-07-11T00:03:33.768828+00:00"
+    },
+    {
+      "id": "72dc8c218cffa0bfb3bd0da690658b3a",
+      "title": "7/5: Sunday Morning",
+      "url": "https://www.cbsnews.com/video/070526-sunday-morning/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Hosted by Jane Pauley. Featured: The military newspaper Star and Stripes, actor J.K. Simmons, \"Little House on the Prairie\" returns to screens, Founding Father Thomas Paine, a visit to George Washington's Mount Vernon, and hifi listening bars.",
+      "published_at": "2026-07-05T13:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692727+00:00"
+    },
+    {
+      "id": "39d0fda86ea6fe04d6aa49107612c291",
+      "title": "Pentagon releases 3rd batch of UFO files: \"Are you seeing this?\"",
+      "url": "https://www.cbsnews.com/news/ufo-files-pentagon-3rd-release-documents-videos/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The Pentagon on Friday released a new group of documents and videos related to UFOs, or UAPs, with 72 more documents, images and recordings.",
+      "published_at": "2026-06-12T18:11:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210401+00:00"
+    },
+    {
+      "id": "f5e169cba84b4033fb5accc25bf96cd1",
+      "title": "Trump arch construction could take 20 hours a day for 2-3 years, documents say",
+      "url": "https://www.cbsnews.com/news/trump-arch-construction-20-hours-a-day-2-3-years/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The Interior Department is planning an aggressive work schedule to complete President Trump's arch near Arlington National Cemetery.",
+      "published_at": "2026-06-11T15:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210423+00:00"
+    },
+    {
+      "id": "6d4bd149db9801748fc143a7511688d3",
+      "title": "Pentagon releases more UFO files: \"Speechless after these observations\"",
+      "url": "https://www.cbsnews.com/news/ufo-files-pentagon-videos-documents/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "The Pentagon on Friday released a new batch of 64 files related to UFOs, unveiling a second tranche of records under an executive order by President Trump.",
+      "published_at": "2026-05-22T23:41:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210445+00:00"
+    },
+    {
+      "id": "cb816491c00ba3f8ec559822dd24a13c",
+      "title": "Pentagon begins releasing UFO files: \"It's time the American people see\"",
+      "url": "https://www.cbsnews.com/news/pentagon-begins-release-ufo-files/",
+      "source": "CBS News",
+      "category": "Politics",
+      "summary": "Defense Secretary Pete Hegseth said in a statement that the documents \"have long fueled justified speculation — and it's time the American people see it for themselves.\"",
+      "published_at": "2026-05-09T00:00:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.210470+00:00"
+    },
+    {
+      "id": "2887d2c6df5d31baf34c6aa80d4ae157",
+      "title": "Disturbing details emerge after U.S. woman killed in Budapest",
+      "url": "https://www.cbsnews.com/news/mackenzie-michalski-murder-us-nurse-budapest-investigation/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "Investigators said Mackenzie Michalski and the suspect met at a nightclub and danced before leaving for the man's rented apartment.",
+      "published_at": "2024-11-11T16:23:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692760+00:00"
+    },
+    {
+      "id": "b82c52d2ebf50be504afccc41142f5be",
+      "title": "American nurse killed in Budapest while on vacation, police arrest suspect",
+      "url": "https://www.cbsnews.com/news/american-nurse-murdered-in-budapest-mackenzie-michalski/",
+      "source": "CBS News",
+      "category": "World",
+      "summary": "The victim, Mackenzie Michalski was reported missing on Nov. 5 after she was last seen at a nightclub in central Budapest.",
+      "published_at": "2024-11-09T18:50:00+00:00",
+      "fetched_at": "2026-07-11T00:03:34.692781+00:00"
+    },
+    {
+      "id": "9d1f47f5496e50e7d6bcb753d3e12752",
+      "title": "Education, health fees among key concerns",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f29d4a3108bc8c6721a30.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "China to legislate on preschool education",
+      "published_at": "2017-12-12T00:59:00+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106143+00:00"
+    },
+    {
+      "id": "1cb45617889869cc0e92cbe2f196903b",
+      "title": "International group praises green revival",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2701a3108bc8c6721a16.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
+      "published_at": "2017-12-12T00:46:57+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106189+00:00"
+    },
+    {
+      "id": "64f84652c8b653f1966b4f7d9f9162b9",
+      "title": "Beijing, Moscow drill for potential missile warfare",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f25bda3108bc8c6721a0b.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "China and Russia kicked off their second joint computer-assisted anti-missile drill on Monday, a move experts said could deter potential missile threats amid rising tensions on the Korean Peninsula.",
+      "published_at": "2017-12-12T00:41:33+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106234+00:00"
+    },
+    {
+      "id": "dcd50fdc7c10c85513ca04609a443bfa",
+      "title": "Memorial Day a time to 'remember', 'inspire'",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f252ca3108bc8c6721a01.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed during the War of Resistance Against Japanese Aggression (1931-45) brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco.",
+      "published_at": "2017-12-12T00:39:08+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106280+00:00"
+    },
+    {
+      "id": "94842c72190ed389531369b309c56be8",
+      "title": "More military technologies targeted for civilian sector to boost economy",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2514a3108bc8c67219fb.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "China will strengthen innovation by developing high-tech industries with military technologies to boost military-civil integration, a move that aims to cultivate new growth drivers and boost the economy, said a recent State Council guideline.",
+      "published_at": "2017-12-12T00:38:44+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106329+00:00"
+    },
+    {
+      "id": "996f256cd6f2aad0427a68e76c0291e3",
+      "title": "Dangerous stunts get thumbs-down from video platforms",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f247aa3108bc8c67219f5.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Multiple social media and video streaming platforms will limit who can view videos that depict dangerous stunts - and may even prohibit such material - in an effort to discourage imitators.",
+      "published_at": "2017-12-12T00:36:10+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106421+00:00"
+    },
+    {
+      "id": "fc3f581ce874f8d3c9e7f6448456354d",
+      "title": "Taiwan's New Party vows to help improve relations",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f23eba3108bc8c67219f0.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Top political adviser Yu Zhengsheng met with a Taiwan delegation representing the island's New Party in Beijing on Monday to discuss the peaceful development of cross-Straits relations and how to achieve the \"great rejuvenation\" of the Chinese nation.",
+      "published_at": "2017-12-12T00:33:47+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106466+00:00"
+    },
+    {
+      "id": "5e3b55ce20f1ffc231969a543812b0c6",
+      "title": "Former Chongqing political official facing corruption investigation",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f22aba3108bc8c67219e2.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Sun Zhengcai, the former secretary of Chongqing Municipal Committee of the Communist Party of China, has been placed under investigation on suspicion of accepting bribes, according to the Supreme People's Procuratorate on Monday.",
+      "published_at": "2017-12-12T00:28:27+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106552+00:00"
+    },
+    {
+      "id": "3d1e1560102f0b3f622107bc29fbee4c",
+      "title": "Satellite lofted for first Arab country",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "published_at": "2017-12-12T00:27:08+00:00",
+      "fetched_at": "2026-07-11T00:03:35.468783+00:00"
+    },
+    {
+      "id": "de6a7f7e7c53b36ce779d9aaeff4e6b3",
+      "title": "Water diversion project drives environmental improvements and provides new jobs for locals",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f1b86a3108bc8c672199a.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Green industries such as eco-agriculture and tourism are helping to raise living standards along the program's central route",
+      "published_at": "2017-12-11T23:57:57+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106720+00:00"
+    },
+    {
+      "id": "7c306b5a04445aca63559595b13be019",
+      "title": "Oldest Nanjing Massacre survivor dies at 100",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f1571a3108bc8c6721964.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The oldest survivor of the Nanjing Massacre died on Sunday, and fewer than 100 survivors remain, the Memorial Hall of the Victims in the Nanjing Massacre said on Monday.",
+      "published_at": "2017-12-11T23:32:01+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106796+00:00"
+    },
+    {
+      "id": "ca9a17b8423c1b6c7c126704b0fc4f82",
+      "title": "AIIB loans $250m for Beijing coal-to-gas conversion",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f146aa3108bc8c6721954.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The Asian Infrastructure Investment Bank announced on Monday a $250 million loan for a natural gas project in Beijing, the bank's first such investment in China, to help cut coal use and improve air quality in the capital area.",
+      "published_at": "2017-12-11T23:27:38+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106862+00:00"
+    },
+    {
+      "id": "b5bdc22ca827dd71444209e3ea314aa3",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "published_at": "2017-12-11T23:14:10+00:00",
+      "fetched_at": "2026-07-11T00:03:35.468844+00:00"
+    },
+    {
+      "id": "324d4455637e6a9efa3fdcb0559df124",
+      "title": "Discovering Yunnan’s Tibetan Plateau - A personal Shangri-La",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f103aa3108bc8c672193a.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "High in the northwestern uplands of Yunnan lies a popular destination known as Shangri-La since 2001. When Bruce Connolly visited it in 1995, it was called Zhongdian. A town partly fulfilling Bruce’s Tibetan dream.",
+      "published_at": "2017-12-11T23:09:44+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106942+00:00"
+    },
+    {
+      "id": "54a06f5b556c0bc7c96c5d958d9aa555",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "published_at": "2017-12-11T22:57:46+00:00",
+      "fetched_at": "2026-07-11T00:03:35.468895+00:00"
+    },
+    {
+      "id": "577fc7d935415c002b846f7b42809644",
+      "title": "Xi: Uproot undesirable work styles",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2efdeaa3108bc8c6721925.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "General Secretary Xi Jinping warns about the recurrence of undesirable work styles - formalities for formalities' sake, hedonism, and extravagance.",
+      "published_at": "2017-12-11T21:51:37+00:00",
+      "fetched_at": "2026-07-11T00:03:36.106986+00:00"
+    },
+    {
+      "id": "c2a3178e94d23198aa5e15c7f25a2203",
+      "title": "Nanjing massacre remembered on 80th anniversary",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2ed569a3108bc8c6721912.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed by the Japanese military during World War II brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco.",
+      "published_at": "2017-12-11T18:58:49+00:00",
+      "fetched_at": "2026-07-11T00:03:35.468964+00:00"
+    },
+    {
+      "id": "cc615b0b5e3728ec70c5cbad0af78cc5",
+      "title": "Young Chinese-Irish ballroom dancer goes international",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2eca0fa3108bc8c672190e.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Kerry Sui, a 10-year-old Chinese-Irish dancer, and her dance partner Francis Carty are set to compete in Italy and perform on Chinese TV after winning the British juvenile ballroom championship.",
+      "published_at": "2017-12-11T18:10:21+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469008+00:00"
+    },
+    {
+      "id": "76dd046a1a480ad57ae0e12a8f9410b4",
+      "title": "Would-be suicide bomber sets off explosion in NYC",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2ec18ca3108bc8c6721902.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "A would-be suicide bomber set off part of a homemade explosive device in a subway passage between Times Square and the Port Authority Bus Terminal in Midtown Manhattan during Monday's morning rush hour, seriously wounding himself and injuring four others, police said.",
+      "published_at": "2017-12-11T17:34:03+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469033+00:00"
+    },
+    {
+      "id": "c990778c3c15ec10d1b6cebec835869e",
+      "title": "UK and China allow more direct flights",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2ebd50a3108bc8c67218fe.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The United Kingdom and China have agreed to raise the limit on the number of direct weekly flights between the two nations to 150 from 100. The UK government said the move was the first of several \"open skies\" deals struck in an effort to increase trade post-Brexit.",
+      "published_at": "2017-12-11T17:15:58+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469058+00:00"
+    },
+    {
+      "id": "488486f7058d1401e3a9334973c7ea11",
+      "title": "Four injured in Manhattan terror-related explosion",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2eb0e8a3108bc8c67218fb.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Police said four people were injured as a device attached to a suspected bomber exploded prematurely at the New York Port Authority bus terminal in Midtown Manhattan during Monday’s morning rush hour.",
+      "published_at": "2017-12-11T16:23:04+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469087+00:00"
+    },
+    {
+      "id": "3cb503c41eeffa6e71d3bee30b56a994",
+      "title": "Bad weather causes massive travel disruption in Britain",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2ea1aea3108bc8c67218f5.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Severe frost, rains and icy roads after heavy snowfall have caused major travel disruption across large parts of Britain on Monday.",
+      "published_at": "2017-12-11T15:18:04+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469108+00:00"
+    },
+    {
+      "id": "4d2ab34063b014d9be1b7d89c501df21",
+      "title": "Xi-style diplomacy brings China closer to world",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e9898a3103f77d55ac36d.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "",
+      "published_at": "2017-12-11T14:39:19+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107041+00:00"
+    },
+    {
+      "id": "af7fe26ddc48b9286415c3bb6d9505ce",
+      "title": "Four injured in New York City blast, suspect nabbed",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e884fa3103f77d55ac367.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Several people were hurt in an explosion in the New York City subway near the Times Square area of Manhattan in early Monday morning.",
+      "published_at": "2017-12-11T13:29:50+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469128+00:00"
+    },
+    {
+      "id": "ce8a3aefc5a4f1e5f99f9995ab9a5c97",
+      "title": "China to hold annual memorial for Nanjing Massacre victims",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e8352a3103f77d55ac363.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "China will hold an annual memorial for the victims of the Nanjing Massacre, in the eastern city of Nanjing Wednesday.",
+      "published_at": "2017-12-11T13:08:34+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107090+00:00"
+    },
+    {
+      "id": "271884ee5a0f0a83b00175ceb6bd69cc",
+      "title": "Beijing’s Haidian district halts removal of building signs",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e7f94a3103f77d55ac35d.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Urban management authorities in Beijing’s Haidian district have suspended the removal of signs and billboards from buildings, and have not made a decision when work would resume.",
+      "published_at": "2017-12-11T12:52:36+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107114+00:00"
+    },
+    {
+      "id": "f7998302370f78c0b4f149d4ebd07eff",
+      "title": "PLA Navy stations women on Nansha Islands for the 1st time",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e7b2ea3109f488237c972.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The People’s Liberation Army has sent 10 of its female members to join the garrison guarding the Nansha Islands in the South China Sea, according to the PLA Navy.",
+      "published_at": "2017-12-11T12:33:50+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107137+00:00"
+    },
+    {
+      "id": "e5d55996e2bb56dbce2c55c049a02251",
+      "title": "Forum tackles urban problems for sustainable future",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e7840a3109f488237c96c.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "A forum tackling the more challenging problems in urban development gathered people in this area on Saturday to raise awareness of greener and more sustainable urban development.",
+      "published_at": "2017-12-11T12:21:19+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107205+00:00"
+    },
+    {
+      "id": "1fde0f1b5dfe1110af5ef16bd1eb0c85",
+      "title": "Emojis frown on corruption",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e7338a3109f488237c969.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "An emojis package highlighting the eight-point austerity rules has become a hit on the internet.",
+      "published_at": "2017-12-11T11:59:50+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107222+00:00"
+    },
+    {
+      "id": "ab3fd31742a1e530b53846138b4b1d46",
+      "title": "Suzhou police catch gang selling fake Herbalife products",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e6f45a3109f488237c967.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Police in eastern China said on Monday they have smashed an operation that made more than 20 million yuan ($3 million) from selling fake Herbalife products.",
+      "published_at": "2017-12-11T11:43:01+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107260+00:00"
+    },
+    {
+      "id": "95e15bbd2c49439300b07e525f59c751",
+      "title": "Jack Ma Foundation pledges millions to boost rural education",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e6ce6a3109f488237c965.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The Jack Ma Foundation has pledged to spend at least 300 million yuan ($45 million) in the next decade to staff rural schools with qualified teachers.",
+      "published_at": "2017-12-11T11:32:54+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107280+00:00"
+    },
+    {
+      "id": "b79bd66a387b41f4b72f9c560ec0a43d",
+      "title": "New Party delegation from Taiwan visits mainland",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e6a39a3109f488237c814.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The director of the State Council's Taiwan Affairs Office met with a delegation from Taiwan's New Party on Monday to promote peaceful development of cross-Straits relations.",
+      "published_at": "2017-12-11T11:21:27+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107301+00:00"
+    },
+    {
+      "id": "a2f259d305f8b433ddc41137dcd2ca12",
+      "title": "NGO helps epileptic boy realize racing dream in Zhejiang",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e62d8a3109f488237c209.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "An NGO helped an epileptic boy from eastern China realize his dream to ride a race car on an international circuit on Monday.",
+      "published_at": "2017-12-11T10:49:59+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107342+00:00"
+    },
+    {
+      "id": "566ac400f1cfd8b02839754ea2fc8ec8",
+      "title": "Six killed in Hebei bath house fire",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e6080a3109f488237c032.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Six people were killed on Sunday afternoon in a fire at a bath house in Yongnian district of Handan, Hebei province, authorities said on Monday.",
+      "published_at": "2017-12-11T10:39:59+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107382+00:00"
+    },
+    {
+      "id": "79470a6db079577df5bfd15f902444d4",
+      "title": "Universities champion new ideas",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e5a8aa31095b331af46bc.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Tsinghua University and Imperial College London have launched a joint fund to support bold scientific ideas in their early stages.",
+      "published_at": "2017-12-11T10:14:32+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469147+00:00"
+    },
+    {
+      "id": "3ff163237053a54cf669a10895c82d7b",
+      "title": "Welsh national side helping with Chinese soccer goals",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e57a1a31095b331af444e.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Fans of the Welsh national soccer team have experienced some dizzying highs and disappointing lows in the last 18 months.",
+      "published_at": "2017-12-11T10:02:08+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469167+00:00"
+    },
+    {
+      "id": "128ed1b376dc5aa40d36c43ff07e21e8",
+      "title": "Residents mobilized to protect environment in Tibet",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e46f3a310eefe3e9a2fe0.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Residents of southwest China's Tibet autonomous region have been mobilized for government-paid patrolling jobs to protect the ecosystem on the \"roof of the world.\"",
+      "published_at": "2017-12-11T08:50:59+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107422+00:00"
+    },
+    {
+      "id": "0c547ae1438dd7ec9ef080ce2f1b7cea",
+      "title": "Israeli feels special connection to Harbin",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e45aca310eefe3e9a2efe.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "A young foreign man walks around the city, giving big hugs to the strangers he meets on the streets in Harbin, capital of Northeast China’s Heilongjiang province.",
+      "published_at": "2017-12-11T08:45:31+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107464+00:00"
+    },
+    {
+      "id": "9bec62bb5641b9b1c3834809e53178e4",
+      "title": "Honor mobile phone leading in AI speed",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e4398a310eefe3e9a2ee3.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Many commentators have deemed 2017 to be year one for the artificial intelligence smartphone as iPhone X and Honor V10 launched into the highly competitive but uniform cellphone market. So will an intelligent phone be the next great breakthrough?",
+      "published_at": "2017-12-11T08:36:40+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107519+00:00"
+    },
+    {
+      "id": "3afcee6abaa6cfe2ff61f9f0e0e97f4e",
+      "title": "Xi’an security guard dies trying to save suicidal woman",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e39c9a310eefe3e9a2ed4.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Police in Xi’an, Shaanxi province, are investigating the death of a security guard who tried to catch a woman who jumped from the 11th floor of a building, Huashang Daily reported on Monday.",
+      "published_at": "2017-12-11T07:54:49+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107546+00:00"
+    },
+    {
+      "id": "57e811de6276db41d8d91f83c0752401",
+      "title": "'Naughty' elephant damages two vehicles in SW China",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e2941a310eefe3e9a290b.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "A wild Asian elephant turned a highway in southwest China's Yunnan province into its playground, damaging a minibus and a sedan Saturday afternoon.",
+      "published_at": "2017-12-11T06:44:17+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107590+00:00"
+    },
+    {
+      "id": "035e31a7c170206e034de4c39182dbe6",
+      "title": "South San Francisco elects first Chinese-American mayor",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e2643a310eefe3e9a28fd.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Liza Lau Normandy has been elected mayor of South San Francisco, the first Chinese-American to be elected in the city's 110 years history, according to World Journal.",
+      "published_at": "2017-12-11T06:31:31+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469188+00:00"
+    },
+    {
+      "id": "971be37719c884cc43629cb5aa188d23",
+      "title": "DaDong duck ready for New York opening",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e230fa310eefe3e9a28eb.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "To acclaimed chef Dong Zhenxiang, it's all about the texture of the duck.",
+      "published_at": "2017-12-11T06:17:51+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469226+00:00"
+    },
+    {
+      "id": "4fcaa5e8565dc798e5d66c703fbec215",
+      "title": "Algerian boy, 12, wins Shenzhen talent contest",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e1cd9a310eefe3e9a28ac.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "A 12-year-old Algerian boy was crowned winner of the eighth Shenzhen Expats Chinese Talent Competition on Sunday.",
+      "published_at": "2017-12-11T05:51:21+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469278+00:00"
+    },
+    {
+      "id": "bf831c07d4fd63880600c00607daaadc",
+      "title": "Duke Kunshan starts search for bachelor’s degree students",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e1ccba310eefe3e9a28a8.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Duke Kunshan University, a joint venture between Duke University in the US and China’s Wuhan University, has started to enroll its first class of undergraduate students.",
+      "published_at": "2017-12-11T05:51:07+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107690+00:00"
+    },
+    {
+      "id": "59cf66dfdb51ecea10ed5a026d0a4205",
+      "title": "Former Chongqing Party chief under investigation",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e1410a310eefe3e9a2754.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Sun Zhengcai, the former Party chief of Chongqing, is being investigated on allegations of bribery, State prosecutors said on Monday.",
+      "published_at": "2017-12-11T05:13:51+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107763+00:00"
+    },
+    {
+      "id": "1ea569b325486d27e4eda6566bd69502",
+      "title": "Top procuratorate investigates Sun Zhengcai",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2e043aa310eefe3e9a2745.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The Supreme People's Procuratorate (SPP) of China announced on Monday that it has started investigation into Sun Zhengcai, former secretary of Chongqing Municipal Committee of the Communist Party of China (CPC).",
+      "published_at": "2017-12-11T04:06:18+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107823+00:00"
+    },
+    {
+      "id": "3df075cdbceb423ed07b469e870f590f",
+      "title": "Xi stresses nonstop efforts to fight undesirable work styles",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dfdd2a310eefe3e9a273a.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "Xi Jinping, general secretary of the Communist Party of China Central Committee, stressed that the fight against undesirable work styles should not be stopped.",
+      "published_at": "2017-12-11T03:38:58+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107865+00:00"
+    },
+    {
+      "id": "4b044ff352442441ad90b9d5c8df8dcc",
+      "title": "Britain, EU could strike trade deal within a year, says Brexit chief",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2df983a310eefe3e9a271a.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Brexit Secretary David Davis said Sunday the odds of Britain exiting the European Union without a deal had dropped dramatically following an agreement both sides reached in Brussels on Friday.",
+      "published_at": "2017-12-11T03:20:35+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469301+00:00"
+    },
+    {
+      "id": "b1840aa3a9d11e5eb0a8c16d766a24eb",
+      "title": "World's largest automated container terminal starts operation in Shanghai",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2df96fa310eefe3e9a2716.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "As part of the Shanghai Free Trade Zone, the system can operate completely unmanned.",
+      "published_at": "2017-12-11T03:20:15+00:00",
+      "fetched_at": "2026-07-11T00:03:36.107925+00:00"
+    },
+    {
+      "id": "309278bf1aef7d67fe5401d6e4484d33",
+      "title": "China launches communication satellite for Algeria",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dee96a310eefe3e9a163a.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "China launched Algeria's first communication satellite, Alcomsat-1, into a preset orbit from the Xichang Satellite Launch Center in the southwestern province of Sichuan early Monday.",
+      "published_at": "2017-12-11T02:33:57+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469366+00:00"
+    },
+    {
+      "id": "a6cffca5baa29a42977076b7a2dc8f1e",
+      "title": "Nanjing massacre remembered",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dec6fa310eefe3e9a161b.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed by the Japanese military during World War II brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco.",
+      "published_at": "2017-12-11T02:24:46+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469452+00:00"
+    },
+    {
+      "id": "2e7fd845c464d680aeaa539333d49979",
+      "title": "Chinese, Algerian presidents hail successful launch of communications satellite",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2deb0aa310eefe3e9a1614.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "President Xi Jinping and his Algerian counterpart Abdelaziz Bouteflika exchanged congratulatory messages on the successful launch of Alcomsat-1 in the Xichang Satellite Launch Center in China's southwestern province of Sichuan early Monday.",
+      "published_at": "2017-12-11T02:18:49+00:00",
+      "fetched_at": "2026-07-11T00:03:36.108070+00:00"
+    },
+    {
+      "id": "830c168d4cf9db0c87e30060e1a330e0",
+      "title": "Autopsy: Jiang suffered several injuries before the fatal stab",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de998a310eefe3e9a160b.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The trial of the alleged murderer of Chinese student Jiang Ge began at 10 am on Monday in Tokyo. It will last seven days and the verdict is expected on Dec 20.",
+      "published_at": "2017-12-11T02:12:40+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469605+00:00"
+    },
+    {
+      "id": "46ae4738c6bfca00a506750244e77f36",
+      "title": "Anti-nuclear weapon campaigner ICAN receives 2017 Nobel Peace Prize",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de979a310eefe3e9a1604.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The International Campaign to Abolish Nuclear Weapons (ICAN) received the 2017 Nobel Peace Prize at an awarding ceremony here Sunday, for its efforts to give new momentum to the process of abolishing nuclear weapons.",
+      "published_at": "2017-12-11T02:12:09+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469629+00:00"
+    },
+    {
+      "id": "edeb7de0837e81c615ee5a2b2535731b",
+      "title": "Asia's tallest wooden pagoda destroyed",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de962a310eefe3e9a1600.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "The 16-story structure was said to be the tallest wooden pagoda in Asia. No casualties were reported in the incident. The cause of the blaze is under investigation.",
+      "published_at": "2017-12-11T02:11:46+00:00",
+      "fetched_at": "2026-07-11T00:03:36.108225+00:00"
+    },
+    {
+      "id": "3e2d56dbde51f5390060e5b698c26f71",
+      "title": "California leader says fires are 'new normal'",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de7d5a310eefe3e9a15f7.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "California's Governor Jerry Brown said that climate change has pushed weather to the most extreme, and the US western state must better prepare for a constant threat of wildfire which is a \"new normal\".",
+      "published_at": "2017-12-11T02:05:09+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469789+00:00"
+    },
+    {
+      "id": "bc7a1e4bc23e6d8e07742bedd3a682d9",
+      "title": "France's Macron to host global climate meet",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de2c1a310eefe3e9a15e2.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "About fifty global leaders are expected to attend the One Planet Summit on Tuesday in Paris hosted by French President Emmanuel Macron to decide what steps to take after the US government left the Paris Climate Change Agreement.",
+      "published_at": "2017-12-11T01:43:29+00:00",
+      "fetched_at": "2026-07-11T00:03:35.469932+00:00"
+    },
+    {
+      "id": "31fbc1b91cfd572a5295cda05835804c",
+      "title": "Chinese, Algerian presidents hail successful launch of communications satellite",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de28ca310eefe3e9a15d9.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "President Xi Jinping and his Algerian counterpart Abdelaziz Bouteflika exchanged congratulatory messages on the successful launch of Alcomsat-1 in southwestern Sichuan province.",
+      "published_at": "2017-12-11T01:42:35+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470032+00:00"
+    },
+    {
+      "id": "a084b4b908abd3061b1be931d28404ae",
+      "title": "UN political chief visits Pyongyang",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2de0ada310eefe3e9a15cd.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The UN's political chief on Saturday stressed the urgency of reducing tensions on the Korean Peninsula after finishing his four-day visit to the Democratic People's Republic of Korea.",
+      "published_at": "2017-12-11T01:34:37+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470144+00:00"
+    },
+    {
+      "id": "618a044d16f7d0dd360737848a505abf",
+      "title": "Ministers condemn US Jerusalem move",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2ddee4a310eefe3e9a15b3.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Arab foreign ministers on Sunday demanded that the United States rescind President Donald Trump's decision to recognize Jerusalem as Israel's capital.",
+      "published_at": "2017-12-11T01:27:00+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470302+00:00"
+    },
+    {
+      "id": "4a494d5e6bb646484deee3cd6dcb5082",
+      "title": "Guizhou: Western province looks to the future of big data",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dddcaa310eefe3e9a159a.html",
+      "source": "China Daily",
+      "category": "China",
+      "summary": "While located in the remote southwestern part of China, Guizhou leads the development of Big Data technology in recent years.",
+      "published_at": "2017-12-11T01:22:18+00:00",
+      "fetched_at": "2026-07-11T00:03:36.108288+00:00"
+    },
+    {
+      "id": "e5f346c910b1f50322120fb81346e3b5",
+      "title": "Foreign minister: Diplomacy will focus on shared future",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dcdaaa310eefe3e9a14c6.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "China's endeavor to foster a new form of international relations and build a community with a shared future for mankind will be the overarching goals of China's foreign policy in the years ahead, Foreign Minister Wang Yi said.",
+      "published_at": "2017-12-11T00:13:30+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470463+00:00"
+    },
+    {
+      "id": "bc424ff40b57cda5efa86a3bdf46d2a7",
+      "title": "The world in photos: Dec 4 - Dec 10",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dc981a310eefe3e9a14ad.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Here, we present some of the most striking images from around the world this past week.",
+      "published_at": "2017-12-10T23:55:44+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470610+00:00"
+    },
+    {
+      "id": "2c7790032007e9318ebf75cad775b806",
+      "title": "China ceases to be dumping ground for foreign waste",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dc336a310eefe3e9a1484.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "A National Public Radio story on Saturday described the impact on Portland, Oregon, after China’s recent ban on the import of foreign waste.",
+      "published_at": "2017-12-10T23:28:54+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470693+00:00"
+    },
+    {
+      "id": "2403e59ed6e5e81f145385e18592e69c",
+      "title": "US tax overhaul's lure could be deceptive",
+      "url": "http://www.chinadaily.com.cn/a/201712/11/WS5a2dbfe2a310eefe3e9a1472.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Chinese scholars said market expectations should remain objective on Washington's approval of a tax overhaul and they expect its benefits targeting special groups in the United States will be limited.",
+      "published_at": "2017-12-10T23:14:40+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470765+00:00"
+    },
+    {
+      "id": "4468ffb0c3885a769bdec0dce6f48178",
+      "title": "Malaysians choose 'Road' as Chinese character of the year",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2d3d17a310eefe3e9a1445.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The Malaysian people have chosen \"Lu,\" or \"Road\" in English, as the Chinese character of the year in 2017, taking cue from the country's active plan in infrastructure expansion.",
+      "published_at": "2017-12-10T13:56:39+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470907+00:00"
+    },
+    {
+      "id": "8beb001c3e4ec716fc5362104810d226",
+      "title": "Ferry runs aground in Calais, no injuries reported -media",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2d3c6ba310eefe3e9a1443.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "",
+      "published_at": "2017-12-10T13:53:47+00:00",
+      "fetched_at": "2026-07-11T00:03:35.470990+00:00"
+    },
+    {
+      "id": "6632feda92cc653cc2bb5804c68e7ab4",
+      "title": "Israel says it demolishes tunnel from Gaza into Israel",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2d3187a310eefe3e9a143a.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "",
+      "published_at": "2017-12-10T13:07:19+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471024+00:00"
+    },
+    {
+      "id": "87e82584d5b968b9e4343d629fec1c50",
+      "title": "Air China launches first non-stop flight to Brisbane",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2d301ba310eefe3e9a1438.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The first non-stop flight connecting China with Brisbane, the habitat of the Great Barrier Reef in Australia, will depart from Beijing on Monday early morning, benefiting tourists from both countries. Air China’s CA 795 will leave Beijing at 2:30 am and arrive about 11 hours later in Brisbane, Queen",
+      "published_at": "2017-12-10T13:01:15+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471222+00:00"
+    },
+    {
+      "id": "771192d060496f264c918bd7eec67d32",
+      "title": "'Right steps' point to a healthier China",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2d2e5ba310eefe3e9a1436.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "China's emphasis on innovation in recent years has led to more opportunities for global clinical development and research programs to be conducted in the country, something that has benefited its people, says a leading executive at a top German pharmaceutical company.",
+      "published_at": "2017-12-10T12:53:45+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471273+00:00"
+    },
+    {
+      "id": "f8fbd65ad58d3ea5ade76aed473c540f",
+      "title": "Toronto marks 80th anniversary of Nanjing Massacre",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2d22d6a310eefe3e9a142b.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "",
+      "published_at": "2017-12-10T12:04:38+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471314+00:00"
+    },
+    {
+      "id": "85a6740f0a04e00f719c328cd956406a",
+      "title": "New York’s first snow of season arrives",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2cf0eea310eefe3e9a141e.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "This was New York’s first snow this winter.",
+      "published_at": "2017-12-10T08:31:41+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471352+00:00"
+    },
+    {
+      "id": "15a6e281ebd0df84ce8358479c00742d",
+      "title": "Joint military medical exercise of Angola, Serbia and US starts in N. Angola",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2c8dcca310eefe3e9a139f.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The first joint military medical exercise of the armed forces of Angola, Serbia and the United States began Saturday in the town of Vale do Paraiso, Angola's northern Bengo province.",
+      "published_at": "2017-12-10T01:28:44+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471410+00:00"
+    },
+    {
+      "id": "016d9f00012f91393ac43d54ee4d4c7b",
+      "title": "Mexico City mayor declines presidential run to focus on rebuilding effort",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2c8d17a310eefe3e9a139c.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Mexico City mayor, Miguel Angel Mancera, on Saturday refused to abandon his position to lead the presidential campaign of a new coalition of parties ahead of the 2018 elections.",
+      "published_at": "2017-12-10T01:25:43+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471477+00:00"
+    },
+    {
+      "id": "f81db5b2e4278d726ee61378bf305541",
+      "title": "First snowfall this season comes to New York",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2c8c15a310eefe3e9a1394.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "The first snowfall of the season arrived in New York on Saturday morning, and is expected to continue until early Sunday morning.",
+      "published_at": "2017-12-10T01:21:25+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471527+00:00"
+    },
+    {
+      "id": "e439899ddb314ff40c37aceadad44937",
+      "title": "Leaders of Serbia, Bulgaria, Romania and Greece attend joint press conference",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2c8861a310eefe3e9a1390.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Leaders of Serbia, Bulgaria, Romania and Greece agreed on Saturday that the whole region needs to be included in the European Union (EU) and that the cooperation on joint projects can bring the region long-awaited prosperity and stability.",
+      "published_at": "2017-12-10T01:05:37+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471591+00:00"
+    },
+    {
+      "id": "0c7ecc78653e800d9fe12a4056a74177",
+      "title": "Udhauli festival marking migration of animals and birds celebrated in Nepal",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2c86b0a310eefe3e9a137f.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Udhauli is the annual festival celebrated by Kirat community of eastern Nepal marking the migration of animals and birds to low altitude towards warmer regions as the winter coming.",
+      "published_at": "2017-12-10T00:58:23+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471660+00:00"
+    },
+    {
+      "id": "fa9de0010d8b694802c881f4fe0ca2b7",
+      "title": "In pics: Archaeological discovery in heritage-rich Luxor of Egypt",
+      "url": "http://www.chinadaily.com.cn/a/201712/10/WS5a2c84e4a310eefe3e9a1376.html",
+      "source": "China Daily",
+      "category": "World",
+      "summary": "Egyptian Minister of Antiquities Khalid El-Anany announced Saturday the discovery of a new tomb and the re-discovery of an older one in the heritage-rich Luxor province in Upper Egypt.",
+      "published_at": "2017-12-10T00:50:43+00:00",
+      "fetched_at": "2026-07-11T00:03:35.471725+00:00"
+    }
+  ]
+}
