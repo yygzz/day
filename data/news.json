@@ -1,0 +1,591 @@
+{
+  "count": 65,
+  "updated_at": "2026-07-17 00:06:48",
+  "news": [
+    {
+      "title": "White House says ICE traffic stops will continue after deadly shootings",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5896396/ice-traffic-stops-shootings",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 17:31:23 -0400",
+      "description": "The comments came following widespread reports earlier in the week that those stops would be put on pause after two immigrants were fatally shot by ICE agents in early July.",
+      "timestamp": 1784246792.6345947,
+      "id": "4de6672d5d4aa5bff0cd0ec119882f63"
+    },
+    {
+      "title": "Flood sirens blare in southcentral Texas as rivers reach perilous heights",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5896458/flood-sirens-texas-rivers-reach-dangerous-heights",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 17:30:03 -0400",
+      "description": "Flood sirens blared early Thursday in Comfort, Texas, as the Guadalupe River rose more than 30 feet in three hours, the U.S. Geological Survey said. The storm could bring even more rainfall than last year's deadly Fourth of July floods.",
+      "timestamp": 1784246792.634602,
+      "id": "af65545f0552d15d8cc708d76096773b"
+    },
+    {
+      "title": "After years of false claims on voting, Trump to give an address on election integrity",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5896448/trump-election-address",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 16:50:26 -0400",
+      "description": "President Trump, who for years has sowed doubt about the security of American elections, is scheduled to give a primetime address Thursday night about election integrity. Trump has long contended, without evidence, that he won the 2020 election",
+      "timestamp": 1784246792.634604,
+      "id": "63bb0a27e574c0c240b1c189f823f913"
+    },
+    {
+      "title": "Why Orthodox Jews are opposing the new daylight saving bill in Congress",
+      "link": "https://www.npr.org/2026/07/16/g-s1-133961/why-orthodox-jews-are-opposing-the-new-daylight-saving-bill-in-congress",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 13:24:31 -0400",
+      "description": "Orthodox Jewish organizations say the bill, if passed, would force morning prayer services to start after 9 a.m. in some parts of the country, making observant Jews late for work and school.",
+      "timestamp": 1784246792.6346054,
+      "id": "dbacf6c5c822dc140a456ccffd26df0f"
+    },
+    {
+      "title": "Officials probe whether White House teleprompter operator profited off Trump's words",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5896223/kalshi-trump-white-house-teleprompter-operator-bet",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 13:10:29 -0400",
+      "description": "It's the first known instance of officials investigating suspected insider trading on a prediction market from inside the White House.",
+      "timestamp": 1784246792.6346076,
+      "id": "8817846d4dee44464e6a7bf3ced500a5"
+    },
+    {
+      "title": "Hong Kong official warns booksellers on security risks after raids",
+      "link": "https://www.npr.org/2026/07/16/g-s1-133931/hong-kong-official-warns-booksellers-on-security-risks-after-raids",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 09:31:33 -0400",
+      "description": "The police operation marks the third round of arrests targeting independent bookstores in four months.",
+      "timestamp": 1784246792.634609,
+      "id": "0a2b49294cad1ad61b5bf13a4564180a"
+    },
+    {
+      "title": "Trump wants a permanent fence around the D.C. park known for White House protests",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5893465/dc-lafayette-square-park-permanent-fencing-proposal",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 08:13:23 -0400",
+      "description": "The Trump administration wants to install permanent fencing around Lafayette Park, directly outside the White House. It's long been a popular spot for protesters, who worry barriers will change that.",
+      "timestamp": 1784246792.6346102,
+      "id": "27e948a7344fd192459036a73be51265"
+    },
+    {
+      "title": "Zelenskyy fires Ukraine's tech-savvy defense minister in government reshuffle",
+      "link": "https://www.npr.org/2026/07/16/g-s1-133920/ukraine-defense-minister-fired",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 07:33:11 -0400",
+      "description": "Ukraine's President Volodymyr Zelenskyy has fired the country's popular defense minister, Mykhailo Fedorov, who pushed for innovation on the battlefield through use of drones and turned the tables on Russia.",
+      "timestamp": 1784246792.6346128,
+      "id": "1c59a455226c0ab048e96370f3f0161d"
+    },
+    {
+      "title": "The political risks from war in Iran. And, ICE's use of force is rising, report finds",
+      "link": "https://www.npr.org/2026/07/16/g-s1-133918/up-first-newsletter-iran-us-trump-jay-clayton-ice-use-of-force",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 07:29:01 -0400",
+      "description": "The political implications the war in Iran is having on the GOP. And, a new report has found that ICE officers' use of force is not rare since President Trump took office for his second term.",
+      "timestamp": 1784246792.6346142,
+      "id": "e41505358abdd1c34f64ba671f4c16b0"
+    },
+    {
+      "title": "Oil companies are making billions. In the U.S., calls to tax their windfall are growing",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5845818/oil-prices-windfall-tax-iran-war",
+      "source": "NPR",
+      "pub_date": "Thu, 16 Jul 2026 05:01:00 -0400",
+      "description": "Higher oil prices since the Iran war began mean many oil companies have brought in excess profits. Some U.S. lawmakers want to tax those windfall profits and give the money to lower-income Americans.",
+      "timestamp": 1784246792.6346152,
+      "id": "40c7fe1db9e8a3928e543d4ad3f405c6"
+    },
+    {
+      "title": "Trump to give primetime speech on 2020 election: Sources",
+      "link": "https://abcnews.com/Politics/trump-give-primetime-speech-2020-election-sources/story?id=134791893",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 18:32:02 -0400",
+      "description": "Trump has long pushed debunked conspiracy theories to claim that his 2020 election loss was fraudulent.",
+      "timestamp": 1784246793.813875,
+      "id": "d1d4bac053f845513823d3432a4e788e"
+    },
+    {
+      "title": "LIVE:  ABC News Live",
+      "link": "https://abcnews.com/video/41463246/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 11:42:50 -0400",
+      "description": "24/7 coverage of breaking news and live events",
+      "timestamp": 1784246793.813879,
+      "id": "526b780c21e3237af59100a8fab4c1cb"
+    },
+    {
+      "title": "Cyclosporiasis cases linked to lettuce served at some Taco Bell locations: Source",
+      "link": "https://abcnews.com/Health/cyclosporiasis-outbreak-linked-shredded-lettuce-served-taco-bell/story?id=134813448",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 19:52:32 -0400",
+      "description": "The locations were in Indiana, Kentucky, Michigan, Ohio and West Virginia",
+      "timestamp": 1784246793.8138812,
+      "id": "c070f3f51bf6dbbb00e54af9352f69ce"
+    },
+    {
+      "title": "Minneapolis air quality ranks worst in world as wildfires continue",
+      "link": "https://abcnews.com/US/amid-wildfires-minneapolis-air-quality-ranks-worst-world/story?id=134814946",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 12:48:59 -0400",
+      "description": "Minneapolis, Minnesota’s air quality ranked worst in the world among major cities Thursday due to thick smoke from wildfires burning in the northern part of the state.",
+      "timestamp": 1784246793.813883,
+      "id": "70f0113886f4d42c79f0a74430be1a18"
+    },
+    {
+      "title": "WATCH:  Why 'The Catcher in the Rye' was linked to high-profile crimes",
+      "link": "https://abcnews.com/video/134830336/",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 18:36:10 -0400",
+      "description": "The Atlantic's Lily Meyer and Sarah Gleim, who wrote, \"How 'The Catcher in the Rye' influenced real killers,\" discuss the book's legacy on its 75th anniversary.",
+      "timestamp": 1784246793.8138847,
+      "id": "c2b83c4a1be685ae0dd4711e207cd9cc"
+    },
+    {
+      "title": "WATCH:  Savannah Bananas debut first-ever song on the ESPYs stage",
+      "link": "https://abcnews.com/video/134820016/",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 13:45:20 -0400",
+      "description": "ABC News’ Hanna Battah reports the buzziest stories of the day in “GMA” Pop News.",
+      "timestamp": 1784246793.8138862,
+      "id": "1072fb8669d5bd8f97603c70493d0592"
+    },
+    {
+      "title": "WATCH:  Crowd chaos at Yosemite National Park",
+      "link": "https://abcnews.com/video/134811303/",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 10:40:56 -0400",
+      "description": "Overcrowding at one of the nation's national parks is raising safety concerns as hikers are seen squeezing past each other down a steep and packed cliffside at a popular trail.",
+      "timestamp": 1784246793.8138878,
+      "id": "e0c83c6559189870e9f585fd70e3325f"
+    },
+    {
+      "title": "WATCH:  Woman with autism goes viral for love of gardening",
+      "link": "https://abcnews.com/video/134808809/",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 06:09:59 -0400",
+      "description": "ABC News' Danny New talks to Sarah Alday, a 24-year-old woman with autism who has amassed millions of fans on social media by sharing her passion for gardening.",
+      "timestamp": 1784246793.8138893,
+      "id": "c956d37c053f77c4236f6af137ea51f9"
+    },
+    {
+      "title": "WATCH:  Oklahoma tree trimming brothers plummet after cable snaps",
+      "link": "https://abcnews.com/video/134799402/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 19:39:32 -0400",
+      "description": "Surveillance video captured a terrifying scene when the tree trimmers plummeted 45 feet. Two brothers, Isaac and Andrew Reyes, suffered serious injuries and are recovering in the hospital.",
+      "timestamp": 1784246793.813891,
+      "id": "a602f17420644ce7e4d0e0581c9bd2ad"
+    },
+    {
+      "title": "WATCH:  Ryanair passenger speaks out",
+      "link": "https://abcnews.com/video/134776608/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 10:52:21 -0400",
+      "description": "A woman who helped save her husband after he was nearly pulled out of a plane window shares the terrifying ordeal.",
+      "timestamp": 1784246793.8138926,
+      "id": "4177a9e78e8dc1d5824e6834f38974a3"
+    },
+    {
+      "title": "WATCH:  How stores are luring shoppers with 'Skelly' and other spooky items earlier than ever",
+      "link": "https://abcnews.com/video/134776018/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 10:48:45 -0400",
+      "description": "Retailers are unveiling Halloween merchandise months earlier than ever, and ABC News' Sam Champion gets an exclusive preview of one retailer's seasonal collection.",
+      "timestamp": 1784246793.8138938,
+      "id": "eb0b191d328ac2bc1250cf08add71676"
+    },
+    {
+      "title": "WATCH:  Taco Bell responds to reports of stomach parasite investigation",
+      "link": "https://abcnews.com/video/134775420/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 12:31:31 -0400",
+      "description": "Thousands of people have become sick since May from the illness. The source has not yet been identified, but Taco Bell is taking voluntary precautionary action amid the multistate investigation.",
+      "timestamp": 1784246793.8138955,
+      "id": "e0d3d9ee7f1eab516324e74cb7728f40"
+    },
+    {
+      "title": "WATCH:  Major League baseball All-Star Game moments",
+      "link": "https://abcnews.com/video/134776237/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 10:50:35 -0400",
+      "description": "The Midsummer Classic came to Philadelphia, where MLB honored the Declaration of Independence by having players sign the starting lineup with a quill pen 250 years later.",
+      "timestamp": 1784246793.8138986,
+      "id": "01a05caa05dbd7b93927684e59c06141"
+    },
+    {
+      "title": "WATCH:  Blast from the past! High-energy workout Tae Bo is back",
+      "link": "https://abcnews.com/video/134773580/",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 06:09:27 -0400",
+      "description": "Hanna Battah talks to Billy Blanks, a fitness personality who's introducing a whole new audience to the workout which surged in popularity decades ago.",
+      "timestamp": 1784246793.8139,
+      "id": "8f317970e34d28bd606c0d06fc000bd1"
+    },
+    {
+      "title": "WATCH:  Hadestown makes the jump from Broadway to the big screen",
+      "link": "https://abcnews.com/video/134765701/",
+      "source": "ABC News",
+      "pub_date": "Tue, 14 Jul 2026 19:53:18 -0400",
+      "description": "Tony Award winners Andre De Shields and Anais Mitchell discuss the excitement behind the theatrical realese of the hit musical, Hadestown.",
+      "timestamp": 1784246793.8139038,
+      "id": "ca62d7744e1fa07a4936b54ddc364065"
+    },
+    {
+      "title": "Blue Angels flyover: 'No reprimands. No firings. No problem,' Navy official says",
+      "link": "https://abcnews.com/US/blue-angels-conducting-review-after-jet-flies-florida/story?id=134800561",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 16:55:00 -0400",
+      "description": "On Wednesday, officials with the Blue Angels said they were conducting a review after social media footage showed the jet flying low over a crowd of beachgoers.",
+      "timestamp": 1784246793.8139055,
+      "id": "ace21c0a5169da1f6f6f7853db1f9152"
+    },
+    {
+      "title": "Speaker Johnson's latest challenge: Funding Trump's war in Iran",
+      "link": "https://abcnews.com/Politics/speaker-johnsons-latest-challenge-funding-trumps-war-iran/story?id=134819979",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 17:02:30 -0400",
+      "description": "A razor-thin majority coupled with early signals of consternation inside the House Republican Conference challenge Johnson’s majority like never before.",
+      "timestamp": 1784246793.8139074,
+      "id": "d686b3090080bc597487df2d6e4f2596"
+    },
+    {
+      "title": "Rubio urges international counterterrorism crackdown on the far-left",
+      "link": "https://abcnews.com/Politics/rubio-urges-international-counterterrorism-crackdown-left/story?id=134820036",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 17:47:56 -0400",
+      "description": "Secretary of State Marco Rubio convened an international gathering focused on rallying support for the Trump administration's fight against left-wing political terrorism.",
+      "timestamp": 1784246793.813909,
+      "id": "bdbcdd570f8eaa3bd97e99ff2ed4a3dd"
+    },
+    {
+      "title": "Democrats urge DHS to shut down Dilley immigration detention center",
+      "link": "https://abcnews.com/US/democrats-urge-dhs-shut-dilley-immigration-detention-center/story?id=134750983",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 11:59:23 -0400",
+      "description": "Rep. Joaquin Castro and other congressional Democrats have sent a letter to DHS Secretary Markwayne Mullin urging the shutdown of the Dilley immigration detention center.",
+      "timestamp": 1784246793.8139105,
+      "id": "a5490b872e52da8ed9c02f5466e135ea"
+    },
+    {
+      "title": "Trump administration revives rule that could deny green cards to immigrants who use public benefits",
+      "link": "https://abcnews.com/US/wireStory/trump-administration-revives-rule-deny-green-cards-immigrants-134821130",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 12:51:12 -0400",
+      "description": "The Trump administration is reviving a rule that could deny green cards to immigrants who use public benefits that could include food stamps, Medicaid, housing vouchers and others",
+      "timestamp": 1784246793.8139122,
+      "id": "1407ed3459601ef2ae111e694a801cca"
+    },
+    {
+      "title": "Brazil calls Trump’s 25% tariff unjustifiable, vows to impose reciprocal tariffs",
+      "link": "https://abcnews.com/US/wireStory/brazil-calls-trumps-25-tariff-unjustifiable-vows-impose-134822260",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 13:10:22 -0400",
+      "description": "The Brazilian government has criticized a new U.S. tariff on certain Brazilian imports and says it plans to impose reciprocal tariffs",
+      "timestamp": 1784246793.8139138,
+      "id": "7392f4b6981d69a24f1092eb17d92f5a"
+    },
+    {
+      "title": "Trump is taking longer to approve disaster aid, denying Democratic states more",
+      "link": "https://abcnews.com/Politics/wireStory/trump-taking-longer-approve-disaster-aid-denying-democratic-134806491",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 06:58:05 -0400",
+      "description": "Americans are waiting longer for disaster aid under President Donald Trump, with delays often lasting weeks or months",
+      "timestamp": 1784246793.8139155,
+      "id": "34484600d927b752770100785b71e9d9"
+    },
+    {
+      "title": "US Mint to begin striking dollar coin featuring Trump",
+      "link": "https://abcnews.com/Politics/us-mint-begin-striking-commemorative-coin-featuring-trump/story?id=134781344",
+      "source": "ABC News",
+      "pub_date": "Wed, 15 Jul 2026 20:25:12 -0400",
+      "description": "Treasury Secretary Scott Bessent released a rendering of a commemorative coin featuring President Donald Trump on Wednesday.",
+      "timestamp": 1784246793.8139167,
+      "id": "6253935c0ba3c54e7e05867ae0910861"
+    },
+    {
+      "title": "Trump administration races to rebuild US tariff wall knocked down by Supreme Court",
+      "link": "https://abcnews.com/Business/wireStory/trump-administration-races-clock-rebuild-us-tariff-wall-134820722",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 12:55:03 -0400",
+      "description": "The U.S. Treasury last year swelled with revenue from President Donald Trump&rsquo;s double-digit taxes on imports from almost every country on earth",
+      "timestamp": 1784246793.813918,
+      "id": "475a792419d3a0f02b2818cc3b690f61"
+    },
+    {
+      "title": "Democrats fight to win back Latino voters who are key to flipping the House",
+      "link": "https://abcnews.com/Politics/democrats-fight-win-back-latino-voters-key-flipping/story?id=134797439",
+      "source": "ABC News",
+      "pub_date": "Thu, 16 Jul 2026 05:27:15 -0400",
+      "description": "With conflict overseas and high costs, Democrats are eyeing key House races that have significant Latino populations that are essential for a House majority.",
+      "timestamp": 1784246793.8139198,
+      "id": "4b3deca893709cd18c34a7b593217af0"
+    },
+    {
+      "title": "Cyclosporiasis outbreak possibly traced to lettuce from Mexico used by Taco Bell",
+      "link": "https://www.cbsnews.com/news/cyclosporiasis-outbreak-taco-bell-lettuce-mexico/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 20:03:32 -0400",
+      "description": "A lettuce supplier to fast-food giant Taco Bell is being investigated as a possible source for a nationwide cyclosporiasis outbreak that has sickened thousands of people.",
+      "timestamp": 1784246794.3065567,
+      "id": "cc1fd55afb1d368de03ce576759eeb6f"
+    },
+    {
+      "title": "28 beluga whales from Marineland coming to U.S. through emergency rescue plan",
+      "link": "https://www.cbsnews.com/video/28-beluga-whales-from-marineland-coming-to-u-s-through-emergency-rescue-plan/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 20:00:38 -0400",
+      "description": "Twenty-eight beluga whales are set to be relocated from shuttered Canadian theme park Marineland to aquariums across the U.S. after federal officials approved an emergency import earlier this month as part of an international rescue effort. Jared Ochacher reports.",
+      "timestamp": 1784246794.3065598,
+      "id": "05ad1df16671f4a2cd8b810db4258995"
+    },
+    {
+      "title": "Deadly helicopter crash in Hudson River likely caused by bird strike, NTSB says",
+      "link": "https://www.cbsnews.com/news/new-york-helicopter-crash-hudson-river-bird-strike-ntsb/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 19:58:18 -0400",
+      "description": "A family of five from Spain, including three children, and the pilot died in the April 2025 crash.",
+      "timestamp": 1784246794.3065612,
+      "id": "c9e93319a2bce04c770c68f89aad2ea8"
+    },
+    {
+      "title": "At least 2 dead in Central Texas flooding as torrential rain slams region",
+      "link": "https://www.cbsnews.com/news/texas-flooding-rescues-torrential-rain/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 19:29:54 -0400",
+      "description": "More than a foot of rain has fallen since Monday, triggering dangerous flash flooding​ in Central Texas.",
+      "timestamp": 1784246794.3065627,
+      "id": "45016a85f0951087008ac45c5f80243d"
+    },
+    {
+      "title": "Trump to speak on elections as sources say he'll raise allegations about China",
+      "link": "https://www.cbsnews.com/live-updates/trump-primetime-speech-elections-china/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 19:29:03 -0400",
+      "description": "President Trump is giving a primetime address on elections tonight, as he remains focused on the 2020 race.",
+      "timestamp": 1784246794.3065643,
+      "id": "a1fa72497a7bfab195d6f3be9ad97395"
+    },
+    {
+      "title": "Trump expected to allege Chinese meddling in U.S. elections during primetime speech, sources say",
+      "link": "https://www.cbsnews.com/video/trump-expected-allege-chinese-meddling-us-elections-sources-say/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 19:25:37 -0400",
+      "description": "President Trump is preparing a primetime speech tied to American election security, sources say. He is also pushing for passage of a voting regulations bill that would establish national voter ID and proof-of-citizenship standards. Ed O'Keefe reports.",
+      "timestamp": 1784246794.306566,
+      "id": "72759ac88651401ed28e888add069724"
+    },
+    {
+      "title": "Blanche meeting with Epstein survivors amid pending confirmation, sources say",
+      "link": "https://www.cbsnews.com/video/blanche-meets-with-epstein-survivors-amid-pending-confirmation-sources-say/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 19:06:00 -0400",
+      "description": "Acting Attorney General Todd Blanche is meeting Thursday with survivors of convicted sex offender Jeffrey Epstein following pressure from senators, sources tell CBS News. Nicole Killion reports.",
+      "timestamp": 1784246794.3065672,
+      "id": "84b0e0e41c40f2347fbce73929336fc9"
+    },
+    {
+      "title": "Universities get funding from foreign entities on U.S. watch lists, records show",
+      "link": "https://www.cbsnews.com/news/universities-foreign-funding-government-watch-lists/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:59:00 -0400",
+      "description": "The State Department is cracking down on universities accepting funding from foreign entities on U S. government watch lists.",
+      "timestamp": 1784246794.3065681,
+      "id": "89984bd31933379e9734efe1bcc59422"
+    },
+    {
+      "title": "Teleprompter operator made over $100K betting on Trump speeches",
+      "link": "https://www.cbsnews.com/news/white-house-teleprompter-operator-kalshi-bets/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:58:54 -0400",
+      "description": "After detecting suspicious activity on the teleprompter operator's account, Kalshi investigated and then referred the case to federal regulators.",
+      "timestamp": 1784246794.306569,
+      "id": "6a30b64b30801cb1812a761f6cab495d"
+    },
+    {
+      "title": "The case for open primaries",
+      "link": "https://www.cbsnews.com/video/case-for-open-primaries/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:57:19 -0400",
+      "description": "Texas Republican John Cornyn is urging his state to keep its open primary system. Some Republicans there want to close the primaries, meaning independents cannot vote in them. John Opdycke, founder and president of Open Primaries, joins \"The Takeout\" to discuss why he's in favor of a more inclusive system.",
+      "timestamp": 1784246794.3065708,
+      "id": "74edc88cd60c68e9ab0e81ff75708279"
+    },
+    {
+      "title": "Poor air quality from wildfires sparking health concerns",
+      "link": "https://www.cbsnews.com/video/poor-air-quality-wildfires-sparks-health-concerns/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:56:30 -0400",
+      "description": "Millions of Americans faced unhealthy air conditions due to smoke from wildfires in Canada and Minnesota this week. More than 180 active fires burned in Ontario as of Thursday and wildfires also burned in northern Minnesota. CBS News' Tom Hanson reports.",
+      "timestamp": 1784246794.306572,
+      "id": "88fbef16d59baad2eccf09928b17ad88"
+    },
+    {
+      "title": "Deadly floods hit same parts of Texas devastated by 2025 4th of July flooding",
+      "link": "https://www.cbsnews.com/video/at-least-1-person-killed-texas-flooding/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:51:10 -0400",
+      "description": "Torrential rain triggered deadly flash flooding in Central Texas this week, prompting local leaders to urge thousands of residents to seek higher ground immediately. At least one person has died and crews have rescued at least 70 people. CBS News correspondent Jason Allen reports.",
+      "timestamp": 1784246794.306573,
+      "id": "b4f2e53e24ddab769f895c7df75def25"
+    },
+    {
+      "title": "Vance says Trump administration mishandled Epstein files release",
+      "link": "https://www.cbsnews.com/video/vance-trump-administration-mishandled-epstein-files-release/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:40:17 -0400",
+      "description": "It's rare for the Trump administration to admit a mistake, but Vice President JD Vance did just that on Joe Rogan's podcast, saying they mishandled the release of files related to convicted sex offender Jeffrey Epstein. Political strategists Joe Borelli and Cameron French join with analysis.",
+      "timestamp": 1784246794.306574,
+      "id": "877cec3f56b2a8980886853fe82b5f63"
+    },
+    {
+      "title": "Erin Brockovich on the stakes of data center expansion",
+      "link": "https://www.cbsnews.com/video/erin-brockovich-stakes-data-center-expansion/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:31:01 -0400",
+      "description": "New York is now the first state to temporarily ban data center construction, paving the way for others to follow suit. Environmental advocate Erin Brockovich joins \"The Takeout\" to discuss.",
+      "timestamp": 1784246794.3065753,
+      "id": "79ffa1ff10b9c0de3d3fca6f75ca5ba1"
+    },
+    {
+      "title": "Stocks fall on AI and Iran concerns, Netflix releases Q2 earnings report",
+      "link": "https://www.cbsnews.com/video/netflix-earnings-stocks-fall-ai-iran-concerns/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:28:16 -0400",
+      "description": "The Dow, NASDAQ and S&P fell on Thursday as concerns over the AI boom and war with Iran dragged stocks into the red. Angela Palumbo, a tech news writer at Barron's, joins CBS News to discuss the markets, Netflix's earnings report and more.",
+      "timestamp": 1784246794.3065767,
+      "id": "ee4a29297e1980ef2e5d726d29707ed4"
+    },
+    {
+      "title": "What we know about Trump's primetime address",
+      "link": "https://www.cbsnews.com/video/what-we-know-about-what-president-trump-will-say-in-tonights-primetime-address/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:17:00 -0400",
+      "description": "President Trump will deliver an address on election integrity and voting systems Thursday night. Olivia Rinaldi reports on what we know so far.",
+      "timestamp": 1784246794.3065789,
+      "id": "9577cc12365ef2310a5f9dbb1c57afdf"
+    },
+    {
+      "title": "Maine Democrats to face off in first Senate debate since Platner withdrawal",
+      "link": "https://www.cbsnews.com/video/maine-democrats-face-off-first-senate-debate-since-platners-withdrawal/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 18:13:03 -0400",
+      "description": "Maine Democrats will have their first Senate debate Thursday since Graham Platner ended his campaign last week. They are expected to discuss ICE operations following the fatal shooting of an immigrant in the state. CBS News national correspondent Lilia Luciano has more from Biddeford, Maine.",
+      "timestamp": 1784246794.30658,
+      "id": "3b6a90f14714cdab94aaa80082dc83b2"
+    },
+    {
+      "title": "Bank of America CEO says U.S. could see $20 billion in economic impact from World Cup",
+      "link": "https://www.cbsnews.com/video/bank-of-america-ceo-us-could-see-20-billion-economic-impact-world-cup/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:56:05 -0400",
+      "description": "The 2026 World Cup has been an economic boon for the host cities across the U.S., Canada and Mexico. CBS News chief foreign affairs correspondent and \"Face the Nation\" moderator Margaret Brennan spoke with Bank of America CEO Brian Moynihan about the tournament's financial impact.",
+      "timestamp": 1784246794.3065815,
+      "id": "e1f69c3ceb08e9e782cc29a17001914b"
+    },
+    {
+      "title": "What to expect from Trump's primetime speech on election security",
+      "link": "https://www.cbsnews.com/video/what-to-expect-trump-election-security-speech/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:54:18 -0400",
+      "description": "President Trump is expected to deliver a primetime speech on election security Thursday night. CBS News' Ed O'Keefe and David Becker have the latest.",
+      "timestamp": 1784246794.3065827,
+      "id": "863f1379a54f59d51a742d8f66a779b3"
+    },
+    {
+      "title": "Leavitt addresses new wave of U.S. strikes on Iran: \"President Trump is not going to sit by\"",
+      "link": "https://www.cbsnews.com/video/leavitt-addresses-new-wave-us-strikes-iran-trump-not-going-sit-by/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:50:00 -0400",
+      "description": "The U.S. on Thursday launched a new wave of strikes against Iran for the fifth day in a row. CBS News senior foreign correspondent Imtiaz Tyab reports.",
+      "timestamp": 1784246794.3065841,
+      "id": "cae0a9be0a65223f4c49aafb58990621"
+    },
+    {
+      "title": "U.S. launches another night of strikes as battle continues over Strait of Hormuz",
+      "link": "https://www.cbsnews.com/live-updates/iran-us-war-trump-strait-of-hormuz-persian-gulf-strikes/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:49:18 -0400",
+      "description": "Iran said it would attack \"all infrastructure in the region\" if President Trump follows through on his threats to attack Iranian civilian infrastructure.",
+      "timestamp": 1784246794.306585,
+      "id": "f904775c87da3caeb5e82c458264c8ae"
+    },
+    {
+      "title": "Bank of America CEO on World Cup ticket sales, economic boost",
+      "link": "https://www.cbsnews.com/video/bank-of-america-ceo-on-world-cup-ticket-sales-economic-boost/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:38:51 -0400",
+      "description": "Bank of America CEO Brian Moynihan speaks with \"Face the Nation\" about his company's FIFA sponsorship and the high turnout for the World Cup despite expensive ticket prices. See the full interview, Sunday.",
+      "timestamp": 1784246794.3065863,
+      "id": "80160ca083f71b089c1838267a1aa8b5"
+    },
+    {
+      "title": "Navy's Blue Angels won't be reprimanded after video shows low flyover",
+      "link": "https://www.cbsnews.com/news/navys-blue-angels-low-flyover-pensacola-beach-florida-video/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:13:00 -0400",
+      "description": "The Blue Angels said an aircraft \"flew lower than standard profiles, resulting in a disturbance on the beach that affected civilian chairs and umbrellas.\"",
+      "timestamp": 1784246794.3065894,
+      "id": "f4aa0e49d10e8973b47a29f4b209b24c"
+    },
+    {
+      "title": "Nearly 736,000 Pillsbury rolls recalled over possible glass contamination",
+      "link": "https://www.cbsnews.com/news/pillsbury-rolls-recall-glass-contamination/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 17:07:40 -0400",
+      "description": "The recall includes cases of Pillsbury \"Hard Roll Dough\" and \"Kaiser Roll Dough\" bread rolls, which are marketed to businesses.",
+      "timestamp": 1784246794.306591,
+      "id": "ad77e332ce9ca07b14798cf2d1f27f60"
+    },
+    {
+      "title": "Leavitt claims Trump's primetime address \"will shock you\"",
+      "link": "https://www.cbsnews.com/video/leavitt-claims-trump-primetime-address-shock-you/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 16:51:07 -0400",
+      "description": "President Trump will allege Chinese meddling in U.S. elections during his primetime speech on Thursday night, sources say. CBS News White House reporter Olivia Rinaldi has the latest.",
+      "timestamp": 1784246794.3065922,
+      "id": "c9f3eeb8da1ea30c7cd8f0c7ca7badb2"
+    },
+    {
+      "title": "Wildfires bringing terrible air quality, hazy skies to much of the Midwest and Northeast",
+      "link": "https://www.cbsnews.com/video/canadian-wildfires-cause-poor-air-quality-hazy-skies-in-northeast/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 16:49:07 -0400",
+      "description": "Wildfires in Ontario, Canada, and northern Minnesota are bringing dark skies and poor air quality across large swaths of the United States. CBS News' Elijah Westbrook reports from New York City, Darius Johnson reports from Chicago and meteorologist Jessica Burch has a look at when the smoke might dissipate.",
+      "timestamp": 1784246794.306594,
+      "id": "b0617266f114d44e28330b1f177298d1"
+    },
+    {
+      "title": "Dozens rescued as Central Texas hit by flash flooding for third day in a row",
+      "link": "https://www.cbsnews.com/video/central-texas-hit-by-flash-flooding-for-third-day/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 16:40:38 -0400",
+      "description": "Dozens of people have been rescued as water levels rise in Central Texas amid torrential rainfall. CBS News correspondent Jason Allen reports from the flood zone.",
+      "timestamp": 1784246794.3065946,
+      "id": "1e6f99dfbbb24017a54c8a8f2d475c5d"
+    },
+    {
+      "title": "Airlines say permanent daylight saving time won't be simple",
+      "link": "https://www.cbsnews.com/news/daylight-saving-time-airlines-business-impact/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 15:32:00 -0400",
+      "description": "Adjusting to permanent daylight saving time would cause significant disruptions to schedules and operations, an airline trade group said.",
+      "timestamp": 1784246794.3065958,
+      "id": "dfab3045b993e3420d8341dbd217552f"
+    },
+    {
+      "title": "Half of Young Adults Still Live at Home | Money Moves with Jill Schlesinger",
+      "link": "https://www.cbsnews.com/video/half-of-young-adults-still-live-at-home-money-moves-with-jill-schlesinger/",
+      "source": "CBS News",
+      "pub_date": "Thu, 16 Jul 2026 07:00:00 -0400",
+      "description": "Half of American adults under 30 are now living with their parents. Is this the new normal, or just a temporary consequence of today's housing market? Regardless, Jill advises young adults living at home to at least offer to chip in financially. Plus, Mark explains why obsessing over minimizing taxes can lead to costly investing mistakes, and Jill shares her thoughts on how friends with different income levels should approach splitting the cost of dinners, vacations, and group outings.",
+      "timestamp": 1784246794.3065972,
+      "id": "ddab88dc2bd63d33f561e46d16ec5c49"
+    },
+    {
+      "title": "Notable Deaths in 2026",
+      "link": "https://www.cbsnews.com/pictures/notable-deaths-in-2026/",
+      "source": "CBS News",
+      "pub_date": "Mon, 13 Jul 2026 13:30:00 -0400",
+      "description": "A look back at the esteemed personalities who've left us this year, who'd touched us with their innovation, creativity and humanity.",
+      "timestamp": 1784246794.3065984,
+      "id": "f0d814d3a17ef29f67eb6616c2e00189"
+    }
+  ]
+}
